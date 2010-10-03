@@ -1,0 +1,2064 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wescamp-i 18n\n"
+"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2010-10-03 13:23+0200\n"
+"PO-Revision-Date: 2010-10-03 13:23+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. [era]: id=era_EFM_a1
+#: Era_of_Four_Moons/EFM_eras.cfg:5
+msgid "Era of Four Moons"
+msgstr ""
+
+#. [era]: id=era_EFM_a1_Dalefolk
+#: Era_of_Four_Moons/EFM_eras.cfg:16
+msgid "Era of Four Moons + Dalefolk"
+msgstr ""
+
+#. [era]: id=era_EFM_D_a1
+#: Era_of_Four_Moons/EFM_eras.cfg:29
+msgid "EoFM + default"
+msgstr ""
+
+#. [multiplayer_side]: id=EFM_Dalefolk, type=EFM_Foreman
+#: Era_of_Four_Moons/factions/Dalefolk-EFM.cfg:5
+msgid "Dalefolk"
+msgstr ""
+
+#. [multiplayer_side]: id=EFM_Darklanders, type=EFM_Wrath
+#: Era_of_Four_Moons/factions/Darklanders-EFM.cfg:5
+msgid "Darklanders"
+msgstr ""
+
+#. [multiplayer_side]: id=EFM_Highlanders, type=EFM_HighlanderWarrior
+#: Era_of_Four_Moons/factions/Highlanders-EFM.cfg:5
+msgid "Highlanders"
+msgstr ""
+
+#. [multiplayer_side]: id=EFM_Imperialists, type=EFM_Centurion
+#: Era_of_Four_Moons/factions/Imperialists-EFM.cfg:5
+msgid "Imperialists"
+msgstr ""
+
+#. [multiplayer_side]: id=EFM_SeaStates, type=EFM_GuildOfficer
+#: Era_of_Four_Moons/factions/SeaStates-EFM.cfg:5
+msgid "Sea States"
+msgstr ""
+
+#. [dummy]: id=EFM_weapon_special_hex
+#: Era_of_Four_Moons/macros/Hex.cfg:9 Era_of_Four_Moons/macros/Hex.cfg:10
+msgid "hex"
+msgstr ""
+
+#. [dummy]: id=EFM_weapon_special_hex
+#: Era_of_Four_Moons/macros/Hex.cfg:13
+msgid ""
+"Hex :\n"
+"Curses the hit unit. The cursed unit gets a 15% defense penalty on every "
+"terrain until it is cured by a village.\n"
+"Does not affect undeads, and the defense value can't go lower than 10%."
+msgstr ""
+
+#. [dummy]: id=EFM_weapon_special_hex
+#: Era_of_Four_Moons/macros/Hex.cfg:16
+msgid ""
+"Hex :\n"
+"Curses the hit unit. The cursed unit gets a 15% defense penalty on every "
+"terrain until it is cured a village.\n"
+"Does not affect undeads, and the defense value can't go lower than 10%."
+msgstr ""
+
+#. [dummy]: id=weapon_special_nozoc
+#: Era_of_Four_Moons/macros/abilities.cfg:6
+#: Era_of_Four_Moons/macros/abilities.cfg:7
+msgid "No ZoC"
+msgstr ""
+
+#. [dummy]: id=weapon_special_nozoc
+#: Era_of_Four_Moons/macros/abilities.cfg:8
+#: Era_of_Four_Moons/macros/abilities.cfg:9
+msgid "This unit does not have a Zone of Control."
+msgstr ""
+
+#. [resistance]: id=ability_artillery
+#: Era_of_Four_Moons/macros/abilities.cfg:17
+#: Era_of_Four_Moons/macros/abilities.cfg:19
+msgid "artillery"
+msgstr ""
+
+#. [resistance]: id=ability_artillery
+#: Era_of_Four_Moons/macros/abilities.cfg:18
+msgid ""
+"Artillery: This unit can attack from an extreme distance limiting the "
+"effectiveness of ranged counter attack."
+msgstr ""
+
+#. [resistance]: id=ability_artillery
+#: Era_of_Four_Moons/macros/abilities.cfg:20
+msgid ""
+"Artillery: This unit can attack from an extreme distance limiting the "
+"effectiveness of ranged counter attack. Increases physical resistances while "
+"attacking by 30 to a max of 90%"
+msgstr ""
+
+#. [resistance]: id=ability_standard
+#: Era_of_Four_Moons/macros/abilities.cfg:31
+#: Era_of_Four_Moons/macros/abilities.cfg:34
+msgid "standard"
+msgstr ""
+
+#. [resistance]: id=ability_standard
+#: Era_of_Four_Moons/macros/abilities.cfg:33
+msgid ""
+"Standard:\n"
+"Allies adjacent to a unit with this ability add 20% to all resistances. This "
+"cannot boost resistances above 50%."
+msgstr ""
+
+#. [resistance]: id=ability_standard
+#: Era_of_Four_Moons/macros/abilities.cfg:36
+msgid ""
+"Standard:\n"
+"Allies adjacent to a unit with this ability add 20% to all resistances."
+msgstr ""
+
+#. [regenerate]: id=selfheal
+#: Era_of_Four_Moons/macros/abilities.cfg:52
+msgid "self-heal"
+msgstr ""
+
+#. [regenerate]: id=selfheal
+#: Era_of_Four_Moons/macros/abilities.cfg:54
+msgid ""
+"Self-heal:\n"
+"The unit will slow the effects of poison on itself or regenerate four "
+"hitpoints per turn."
+msgstr ""
+
+#. [attacks]: id=weapon_special_trample
+#: Era_of_Four_Moons/macros/abilities.cfg:63
+msgid "trample"
+msgstr ""
+
+#. [attacks]: id=weapon_special_trample
+#: Era_of_Four_Moons/macros/abilities.cfg:64
+msgid ""
+"On offense units with trample will gain two extra strikes and if they kill "
+"they will move into the hex of the unit they killed."
+msgstr ""
+
+#. [unit_type]: id=EFM_Sapper, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/e1_Sapper.cfg:5
+#: Era_of_Four_Moons/macros/abilities.cfg:134
+#: Era_of_Four_Moons/macros/abilities.cfg:135
+msgid "Sapper"
+msgstr ""
+
+#: Era_of_Four_Moons/macros/abilities.cfg:137
+#: Era_of_Four_Moons/macros/abilities.cfg:139
+msgid ""
+"Sapper :\n"
+"This attack automatically hits. It reduces the targets hp by a percentage "
+"equal to his current defense. The sapper dies when it uses this attack."
+msgstr ""
+
+#: Era_of_Four_Moons/macros/abilities.cfg:149
+msgid "heal+3"
+msgstr ""
+
+#: Era_of_Four_Moons/macros/abilities.cfg:151
+msgid ""
+"Heal+3:\n"
+"This unit will heal allies by 3 hp at the start of it's turn. Will slow "
+"poison."
+msgstr ""
+
+#: Era_of_Four_Moons/macros/abilities.cfg:169
+#: Era_of_Four_Moons/macros/abilities.cfg:172
+msgid "foresthome"
+msgstr ""
+
+#: Era_of_Four_Moons/macros/abilities.cfg:171
+#: Era_of_Four_Moons/macros/abilities.cfg:174
+msgid ""
+"Foresthome:\n"
+"This unit will regenerate 3 hp when in forest."
+msgstr ""
+
+#: Era_of_Four_Moons/macros/abilities.cfg:188
+#: Era_of_Four_Moons/macros/abilities.cfg:191
+msgid "waterhome"
+msgstr ""
+
+#: Era_of_Four_Moons/macros/abilities.cfg:190
+#: Era_of_Four_Moons/macros/abilities.cfg:193
+msgid ""
+"Waterhome:\n"
+"This unit will regenerate 3 hp when in deep or shallow water."
+msgstr ""
+
+#: Era_of_Four_Moons/macros/abilities.cfg:207
+#: Era_of_Four_Moons/macros/abilities.cfg:210
+msgid "deserthome"
+msgstr ""
+
+#: Era_of_Four_Moons/macros/abilities.cfg:209
+#: Era_of_Four_Moons/macros/abilities.cfg:212
+msgid ""
+"Deserthome:\n"
+"This unit will regenerate 3 hp when in desert or sand."
+msgstr ""
+
+#: Era_of_Four_Moons/macros/abilities.cfg:226
+#: Era_of_Four_Moons/macros/abilities.cfg:229
+msgid "mountainhome"
+msgstr ""
+
+#: Era_of_Four_Moons/macros/abilities.cfg:228
+msgid ""
+"Mountainhome:\n"
+"This unit will regenerate 3 hp when on mountains."
+msgstr ""
+
+#: Era_of_Four_Moons/macros/abilities.cfg:231
+msgid ""
+"Mountainhome:\n"
+"This unit will regenerate 3 hp when in mountains."
+msgstr ""
+
+#: Era_of_Four_Moons/macros/abilities.cfg:241
+msgid "inspire"
+msgstr ""
+
+#: Era_of_Four_Moons/macros/abilities.cfg:245
+msgid ""
+"Inspire:\n"
+"This unit can inspire friendly units that are next to it, making them fight "
+"better.\n"
+"\n"
+"Adjacent friendly level 1 units will do 10% more damage in battle. Does not "
+"work on Celestial messengers."
+msgstr ""
+
+#. [dummy]: id=ability_shifter
+#: Era_of_Four_Moons/macros/shifter.cfg:6
+#: Era_of_Four_Moons/macros/shifter.cfg:7
+#: Era_of_Four_Moons/macros/abilities.cfg:362
+#: Era_of_Four_Moons/macros/abilities.cfg:363
+msgid "shifter"
+msgstr ""
+
+#. [dummy]: id=ability_shifter
+#: Era_of_Four_Moons/macros/shifter.cfg:14
+#: Era_of_Four_Moons/macros/abilities.cfg:370
+msgid ""
+"This unit changes form based on what terrain he is standing on.\n"
+"Villages/Castles: Human\n"
+"Open/Desert: Warthog\n"
+"Water: Giant Beaver\n"
+"Mountains/Hills: Bighorned Sheep\n"
+"SnowCovered: Wolf\n"
+"Forest/Cave: Bear"
+msgstr ""
+
+#. [unit_type]: id=EFM_Miner, race=human
+#: Era_of_Four_Moons/units/Dalefolk/a1_Miner.cfg:5
+msgid "Miner"
+msgstr ""
+
+#. [unit_type]: id=EFM_Miner, race=human
+#: Era_of_Four_Moons/units/Dalefolk/a1_Miner.cfg:18
+msgid ""
+"The dalefolk live in the creases between mountains and have always had a "
+"strong industry in their mining. During times of war miners have been "
+"rounded up to form a surprisingly effective militia. Hardened by their work "
+"and already armed they will bravely defend their people."
+msgstr ""
+
+#. [attack]: type=blade
+#: Era_of_Four_Moons/units/Dalefolk/a1_Miner.cfg:29
+#: Era_of_Four_Moons/units/Dalefolk/a2_Foreman.cfg:34
+msgid "pick"
+msgstr ""
+
+#. [unit_type]: id=EFM_Foreman, race=human
+#: Era_of_Four_Moons/units/Dalefolk/a2_Foreman.cfg:5
+msgid "Foreman"
+msgstr ""
+
+#. [unit_type]: id=EFM_Foreman, race=human
+#: Era_of_Four_Moons/units/Dalefolk/a2_Foreman.cfg:19
+msgid ""
+"The foremen who lead the miners in digging their mines also tend to lead "
+"them in combat."
+msgstr ""
+
+#. [unit_type]: id=EFM_Mountaineer, race=human
+#: Era_of_Four_Moons/units/Dalefolk/b1_Mountaineer.cfg:5
+msgid "Mountaineer"
+msgstr ""
+
+#. [unit_type]: id=EFM_Mountaineer, race=human
+#: Era_of_Four_Moons/units/Dalefolk/b1_Mountaineer.cfg:18
+msgid ""
+"One of the major industries and traits of the dalesfolk is their goat "
+"herding. They regularly send their bravest lads out into the mountains alone "
+"seeking land for their flocks to graze in. Over time these boys have become "
+"quite adept at seeking sheep and fighting predators. In times of war they "
+"are called in to serve as light skirmishers for the dalesfolk."
+msgstr ""
+
+#. [attack]: type=impact
+#: Era_of_Four_Moons/units/Dalefolk/b2_MountainMan.cfg:31
+#: Era_of_Four_Moons/units/Dalefolk/b1_Mountaineer.cfg:30
+msgid "club"
+msgstr ""
+
+#. [attack]: type=impact
+#: Era_of_Four_Moons/units/Dalefolk/b2_MountainMan.cfg:40
+#: Era_of_Four_Moons/units/Dalefolk/b1_Mountaineer.cfg:39
+msgid "sling"
+msgstr ""
+
+#. [unit_type]: id=EFM_MountainMan, race=human
+#: Era_of_Four_Moons/units/Dalefolk/b2_MountainMan.cfg:5
+msgid "Mountain Man"
+msgstr ""
+
+#. [unit_type]: id=EFM_MountainMan, race=human
+#: Era_of_Four_Moons/units/Dalefolk/b2_MountainMan.cfg:19
+msgid ""
+"Occasionally after a former mountaineer has grown old enough to be relieved "
+"of shepherd duties he will head into the mountains to make his own way. "
+"These mavericks are however still loyal to their people and will return to "
+"defend them."
+msgstr ""
+
+#. [unit_type]: id=EFM_Shifter
+#: Era_of_Four_Moons/units/Dalefolk/c1_Shifter.cfg:25
+#: Era_of_Four_Moons/units/Dalefolk/c1_Shifter.cfg:337
+msgid "Shifter"
+msgstr ""
+
+#: Era_of_Four_Moons/units/Dalefolk/c1_Shifter.cfg:28
+msgid ""
+"When the scientifically minded dalefolk heard stories about witches turning "
+"princesses into frogs and other such tales they undertook to learn how it "
+"worked. They were successful to an extent. Although they could not figure "
+"out how to turn someone else into a beast they did eventually learn how to "
+"do it to themselves. It is a rare talent and much in demand for both "
+"domestic and militaristic problems."
+msgstr ""
+
+#. [attack]: type=impact
+#: Era_of_Four_Moons/units/Dalefolk/c1_Shifter.cfg:37
+msgid "fist"
+msgstr ""
+
+#: Era_of_Four_Moons/units/Dalefolk/c1_Shifter.cfg:71
+msgid "Shifter(bear)"
+msgstr ""
+
+#: Era_of_Four_Moons/units/Dalefolk/c1_Shifter.cfg:74
+msgid "The bear form of the shifter is the most physically strong."
+msgstr ""
+
+#. [attack]: type=blade
+#. [attack]: type=impact
+#: Era_of_Four_Moons/units/Dalefolk/f1_Mynah.cfg:26
+#: Era_of_Four_Moons/units/Dalefolk/f0_Raven.cfg:25
+#: Era_of_Four_Moons/units/Dalefolk/c1_Shifter.cfg:83
+#: Era_of_Four_Moons/units/Dalefolk/c1_Shifter.cfg:184
+#: Era_of_Four_Moons/units/Darklanders/f3_Vengence.cfg:44
+#: Era_of_Four_Moons/units/Darklanders/f4_Judgement.cfg:45
+msgid "claws"
+msgstr ""
+
+#: Era_of_Four_Moons/units/Dalefolk/c1_Shifter.cfg:117
+msgid "Shifter(BigHornedSheep)"
+msgstr ""
+
+#: Era_of_Four_Moons/units/Dalefolk/c1_Shifter.cfg:120
+msgid ""
+"The big horned sheep form is a dauntless defender of mountains and attacks "
+"with a devastating ram attack."
+msgstr ""
+
+#. [attack]: type=impact
+#: Era_of_Four_Moons/units/Dalefolk/c1_Shifter.cfg:129
+#: Era_of_Four_Moons/units/Dalefolk/c1_Shifter.cfg:299
+msgid "ram"
+msgstr ""
+
+#: Era_of_Four_Moons/units/Dalefolk/c1_Shifter.cfg:171
+msgid "Shifter(Beaver)"
+msgstr ""
+
+#: Era_of_Four_Moons/units/Dalefolk/c1_Shifter.cfg:174
+msgid "The Beaver form is a powerful aquatic fighter."
+msgstr ""
+
+#: Era_of_Four_Moons/units/Dalefolk/c1_Shifter.cfg:217
+msgid "Shifter(wolf)"
+msgstr ""
+
+#: Era_of_Four_Moons/units/Dalefolk/c1_Shifter.cfg:220
+msgid "The wolf form is a swift and cunning hunter."
+msgstr ""
+
+#. [attack]: type=blade
+#: Era_of_Four_Moons/units/Dalefolk/c1_Shifter.cfg:229
+msgid "teeth"
+msgstr ""
+
+#: Era_of_Four_Moons/units/Dalefolk/c1_Shifter.cfg:287
+msgid "Shifter(Warthog)"
+msgstr ""
+
+#: Era_of_Four_Moons/units/Dalefolk/c1_Shifter.cfg:290
+msgid "The warthog is a sturdy charger."
+msgstr ""
+
+#. [unit_type]: id=EFM_Shifter_Bear
+#: Era_of_Four_Moons/units/Dalefolk/c1_Shifter.cfg:378
+msgid "Shifter(Bear)"
+msgstr ""
+
+#. [unit_type]: id=EFM_Channeler, race=human
+#: Era_of_Four_Moons/units/Dalefolk/d1_Channeler.cfg:5
+msgid "Channeler"
+msgstr ""
+
+#. [unit_type]: id=EFM_Channeler, race=human
+#: Era_of_Four_Moons/units/Dalefolk/d1_Channeler.cfg:18
+msgid ""
+"Among the dalesfolk are those who study the theory of magic. Through careful "
+"experimentation they have discovered a devastatingly deadly way to attack "
+"with it. By touching something or someone they can channel its heat directly "
+"into the ground. Though there are many peaceful applications for such "
+"magicians the most famous use of it was in a siege where a group of them "
+"made the base of a stone wall so brittle that the entire wall could be "
+"pushed over."
+msgstr ""
+
+#. [attack]: type=cold
+#. [attack]: type=fire
+#: Era_of_Four_Moons/units/Dalefolk/d3_Conduit.cfg:32
+#: Era_of_Four_Moons/units/Dalefolk/d3_Conduit.cfg:44
+#: Era_of_Four_Moons/units/Dalefolk/d2_Mediator.cfg:31
+#: Era_of_Four_Moons/units/Dalefolk/d2_Mediator.cfg:43
+#: Era_of_Four_Moons/units/Dalefolk/d1_Channeler.cfg:31
+msgid "touch"
+msgstr ""
+
+#. [unit_type]: id=EFM_Mediator, race=human
+#: Era_of_Four_Moons/units/Dalefolk/d2_Mediator.cfg:5
+msgid "Mediator"
+msgstr ""
+
+#. [unit_type]: id=EFM_Mediator, race=human
+#: Era_of_Four_Moons/units/Dalefolk/d2_Mediator.cfg:18
+msgid ""
+"Given time and practice a channeler can also draw heat from the ground and "
+"transfer it to a person he touches. It is equally devastating but for very "
+"different reasons."
+msgstr ""
+
+#. [unit_type]: id=EFM_Conduit, race=human
+#: Era_of_Four_Moons/units/Dalefolk/d3_Conduit.cfg:5
+msgid "Conduit"
+msgstr ""
+
+#. [unit_type]: id=EFM_Conduit, race=human
+#: Era_of_Four_Moons/units/Dalefolk/d3_Conduit.cfg:19
+msgid ""
+"A daleman who becomes truly skilled at the magic arts becomes a conduit in "
+"complete control of the flow of energy around him."
+msgstr ""
+
+#. [unit_type]: id=EFM_Rocketeer, race=human
+#: Era_of_Four_Moons/units/Dalefolk/e1_Rocketeer.cfg:5
+msgid "Rocketeer"
+msgstr ""
+
+#. [unit_type]: id=EFM_Rocketeer, race=human
+#: Era_of_Four_Moons/units/Dalefolk/e1_Rocketeer.cfg:18
+msgid ""
+"Other nations hold the rockets the dalesfolk are so fond of in a mixture of "
+"amazement and bemusement. They have no understanding of these strange "
+"weapons nor of why anyone would use such an unreliable weapon. The dalesfolk "
+"value them for their range but also just seem to love things that go boom."
+msgstr ""
+
+#. [attack]: type=blade
+#: Era_of_Four_Moons/units/Highlanders/e2_Warlock.cfg:38
+#: Era_of_Four_Moons/units/Highlanders/b2_Prowler.cfg:32
+#: Era_of_Four_Moons/units/Highlanders/b1_Hunter.cfg:32
+#: Era_of_Four_Moons/units/Highlanders/b3_ManHunter.cfg:33
+#: Era_of_Four_Moons/units/Highlanders/e3_SpirtWielder.cfg:39
+#: Era_of_Four_Moons/units/Highlanders/e2_Shaman.cfg:38
+#: Era_of_Four_Moons/units/Highlanders/e1_WitchDoctor.cfg:38
+#: Era_of_Four_Moons/units/Dalefolk/e3_Battery.cfg:26
+#: Era_of_Four_Moons/units/Dalefolk/e1_Rocketeer.cfg:25
+#: Era_of_Four_Moons/units/Dalefolk/g1_Herbalist.cfg:29
+#: Era_of_Four_Moons/units/Dalefolk/e2_Bombadier.cfg:25
+#: Era_of_Four_Moons/units/Dalefolk/g2_Botanist.cfg:30
+#: Era_of_Four_Moons/units/SeaStates/e2_Concoctionist.cfg:26
+#: Era_of_Four_Moons/units/SeaStates/e2_Doctor.cfg:29
+#: Era_of_Four_Moons/units/SeaStates/e1_Alchemist.cfg:25
+msgid "knife"
+msgstr ""
+
+#. [attack]: type=fire
+#: Era_of_Four_Moons/units/Dalefolk/e3_Battery.cfg:35
+#: Era_of_Four_Moons/units/Dalefolk/e3_Battery.cfg:44
+#: Era_of_Four_Moons/units/Dalefolk/e1_Rocketeer.cfg:34
+#: Era_of_Four_Moons/units/Dalefolk/e1_Rocketeer.cfg:43
+#: Era_of_Four_Moons/units/Dalefolk/e2_Bombadier.cfg:34
+#: Era_of_Four_Moons/units/Dalefolk/e2_Bombadier.cfg:43
+msgid "rocket"
+msgstr ""
+
+#. [unit_type]: id=EFM_Bombadier, race=human
+#: Era_of_Four_Moons/units/Dalefolk/e2_Bombadier.cfg:5
+msgid "Bombadier"
+msgstr ""
+
+#. [unit_type]: id=EFM_Bombadier, race=human
+#: Era_of_Four_Moons/units/Dalefolk/e2_Bombadier.cfg:18
+msgid ""
+"Aiming rockets is a knack few people have. After quite some practice a "
+"rocketeer can figure out how to aim his rocket so that the explosion is more "
+"dangerous but even no matter how skilled he is rockets are a chancy weapon "
+"at best."
+msgstr ""
+
+#. [unit_type]: id=EFM_Battery, race=human
+#: Era_of_Four_Moons/units/Dalefolk/e3_Battery.cfg:5
+msgid "Battery"
+msgstr ""
+
+#. [unit_type]: id=EFM_Battery, race=human
+#: Era_of_Four_Moons/units/Dalefolk/e3_Battery.cfg:19
+msgid ""
+"A master rocketeer can both aim and reload his launcher quickly. This makes "
+"him a quite fearsome force."
+msgstr ""
+
+#. [unit_type]: id=EFM_Raven, race=bat
+#: Era_of_Four_Moons/units/Dalefolk/f0_Raven.cfg:5
+msgid "Raven"
+msgstr ""
+
+#. [unit_type]: id=EFM_Raven, race=bat
+#: Era_of_Four_Moons/units/Dalefolk/f0_Raven.cfg:18
+msgid ""
+"When the dalesfolk discovered that ravens were unusually intelligent they "
+"set about training them. Though not overly useful as hunting birds they "
+"could be taught to mimic or carry messages. This was enough to have them "
+"around at first but eventually a mage discovered a pattern to their warning "
+"messages that could be used to get more precise information. Since then the "
+"highlanders have used them as spies and scouts."
+msgstr ""
+
+#. [unit_type]: id=EFM_Mynah, race=bat
+#: Era_of_Four_Moons/units/Dalefolk/f1_Mynah.cfg:5
+msgid "Mynah"
+msgstr ""
+
+#. [unit_type]: id=EFM_Mynah, race=bat
+#: Era_of_Four_Moons/units/Dalefolk/f1_Mynah.cfg:19
+msgid ""
+"Mynah birds are even larger and more intelligent than ravens. As a result "
+"their warning patterns are a little more complex and it takes a more cunning "
+"mage to decipher them."
+msgstr ""
+
+#. [unit_type]: id=EFM_Herbalist, race=human
+#: Era_of_Four_Moons/units/Dalefolk/g1_Herbalist.cfg:5
+msgid "Herbalist"
+msgstr ""
+
+#. [unit_type]: id=EFM_Herbalist, race=human
+#: Era_of_Four_Moons/units/Dalefolk/g1_Herbalist.cfg:18
+msgid ""
+"Many strange and interesting plants grow on the side of the mountains. "
+"Herbalists make their living by knowing which ones are helpful and which are "
+"harmful. This knowledge makes them useful support for the dalesfolk militias."
+msgstr ""
+
+#. [attack]: type=arcane
+#: Era_of_Four_Moons/units/Dalefolk/g1_Herbalist.cfg:38
+msgid "carkroot fumes"
+msgstr ""
+
+#. [unit_type]: id=EFM_Botanist, race=human
+#: Era_of_Four_Moons/units/Dalefolk/g2_Botanist.cfg:5
+msgid "Botanist"
+msgstr ""
+
+#. [unit_type]: id=EFM_Botanist, race=human
+#: Era_of_Four_Moons/units/Dalefolk/g2_Botanist.cfg:19
+msgid "As herbalists practice their art they become better at it."
+msgstr ""
+
+#. [attack]: type=arcane
+#: Era_of_Four_Moons/units/Dalefolk/g2_Botanist.cfg:39
+msgid "syreleaf fumes"
+msgstr ""
+
+#. [unit_type]: id=EFM_Tribesman, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/a1_Tribesman.cfg:5
+msgid "Tribesman"
+msgstr ""
+
+#. [unit_type]: id=EFM_Tribesman, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/a1_Tribesman.cfg:19
+msgid ""
+"The darklanders may live deep in the jungle but they are skilled metal "
+"workers and most tribes have a substantial store of weapons with which the "
+"menfolk of the tribe can defend themselves in times of need. The lifestyle "
+"of the darklands ensures that pretty much every able man is a capable "
+"warrior when this time arrives."
+msgstr ""
+
+#. [attack]: type=blade
+#: Era_of_Four_Moons/units/SeaStates/g3_Snapper.cfg:37
+#: Era_of_Four_Moons/units/Darklanders/a1_Tribesman.cfg:30
+#: Era_of_Four_Moons/units/Darklanders/a2_Guerrilla.cfg:36
+#: Era_of_Four_Moons/units/Darklanders/a2_Militia.cfg:30
+#: Era_of_Four_Moons/units/Darklanders/a3_Guard.cfg:31
+msgid "sword"
+msgstr ""
+
+#. [unit_type]: id=EFM_Guerrilla, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/a2_Guerrilla.cfg:5
+msgid "Guerrilla"
+msgstr ""
+
+#. [unit_type]: id=EFM_Guerrilla, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/a2_Guerrilla.cfg:19
+msgid ""
+"Guerrilla tactics come naturally to the darklanders but those who train "
+"specifically in it become very effective at it."
+msgstr ""
+
+#. [attack]: type=pierce
+#: Era_of_Four_Moons/units/Highlanders/d3_WindWalker.cfg:42
+#: Era_of_Four_Moons/units/Highlanders/d2_Strider.cfg:41
+#: Era_of_Four_Moons/units/Imperialists/a3_Praetorion.cfg:44
+#: Era_of_Four_Moons/units/Imperialists/a1_Legionnaire.cfg:43
+#: Era_of_Four_Moons/units/Imperialists/c2_Velite.cfg:48
+#: Era_of_Four_Moons/units/Imperialists/c1_Pelite.cfg:45
+#: Era_of_Four_Moons/units/Imperialists/c3_Equite.cfg:49
+#: Era_of_Four_Moons/units/Imperialists/a2_Stalwart.cfg:43
+#: Era_of_Four_Moons/units/Darklanders/a2_Guerrilla.cfg:45
+#: Era_of_Four_Moons/units/Darklanders/b1_Hurler.cfg:39
+#: Era_of_Four_Moons/units/Darklanders/b2_Stalker.cfg:39
+#: Era_of_Four_Moons/units/Darklanders/b3_Whisper.cfg:44
+#: Era_of_Four_Moons/units/Darklanders/b2_Wasp.cfg:40
+msgid "javelin"
+msgstr ""
+
+#. [unit_type]: id=EFM_DarklanderMilitia, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/a2_Militia.cfg:5
+msgid "Militia"
+msgstr ""
+
+#. [unit_type]: id=EFM_DarklanderMilitia, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/a2_Militia.cfg:19
+msgid ""
+"In most militiaries the word militia is used to refer to temporary or part-"
+"time warriors. The darklanders who consider most of their entire population "
+"to be of this category use the word to refer to those who actively train to "
+"fight."
+msgstr ""
+
+#. [unit_type]: id=EFM_DarklanderGuard, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/a3_Guard.cfg:5
+msgid "Guard"
+msgstr ""
+
+#. [unit_type]: id=EFM_DarklanderGuard, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/a3_Guard.cfg:20
+msgid ""
+"In most cultures, the phrase guard implies a common soldier or policeman. If "
+"a darklander is called a guard it means he is a man to be feared for he can "
+"get away with contributing nothing to society save his fighting ability."
+msgstr ""
+
+#. [unit_type]: id=EFM_Hurler, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/b1_Hurler.cfg:5
+msgid "Hurler"
+msgstr ""
+
+#. [unit_type]: id=EFM_Hurler, race=EFMdarklander
+#. [unit_type]: id=EFM_Stalker, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/b1_Hurler.cfg:19
+#: Era_of_Four_Moons/units/Darklanders/b2_Stalker.cfg:19
+msgid ""
+"Darklander hunting technique is about stealthily approaching the target and "
+"then hurling a javelin into a vital area before the target can react. The "
+"same hours of practice that go into this can also be used in war though "
+"against an alert warparty a hunter attempting to use this technique must "
+"have a distraction."
+msgstr ""
+
+#. [attack]: type=pierce
+#: Era_of_Four_Moons/units/Highlanders/c3_LionMaster.cfg:41
+#: Era_of_Four_Moons/units/Highlanders/c3_LionMavrick.cfg:40
+#: Era_of_Four_Moons/units/Highlanders/d3_WindWalker.cfg:33
+#: Era_of_Four_Moons/units/Highlanders/c2_LionAdept.cfg:40
+#: Era_of_Four_Moons/units/Highlanders/c1_LionWarrior.cfg:38
+#: Era_of_Four_Moons/units/Highlanders/c2_LionRenegade.cfg:39
+#: Era_of_Four_Moons/units/Highlanders/d1_Runner.cfg:32
+#: Era_of_Four_Moons/units/Highlanders/d2_Strider.cfg:32
+#: Era_of_Four_Moons/units/Imperialists/c2_Velite.cfg:36
+#: Era_of_Four_Moons/units/Imperialists/f3_Avalanche.cfg:35
+#: Era_of_Four_Moons/units/Imperialists/c1_Pelite.cfg:33
+#: Era_of_Four_Moons/units/Imperialists/c3_Equite.cfg:37
+#: Era_of_Four_Moons/units/Darklanders/b1_Hurler.cfg:30
+#: Era_of_Four_Moons/units/Darklanders/b2_Stalker.cfg:30
+#: Era_of_Four_Moons/units/Darklanders/b3_Whisper.cfg:35
+#: Era_of_Four_Moons/units/Darklanders/b2_Wasp.cfg:31
+msgid "spear"
+msgstr ""
+
+#. [unit_type]: id=EFM_Stalker, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/b2_Stalker.cfg:5
+msgid "Stalker"
+msgstr ""
+
+#. [unit_type]: id=EFM_Wasp, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/b2_Wasp.cfg:5
+msgid "Wasp"
+msgstr ""
+
+#. [unit_type]: id=EFM_Wasp, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/b2_Wasp.cfg:20
+msgid ""
+"Some darklander hunters are lazy and rather than bringing down their targets "
+"the proper and safe way turn to using poison. These individuals tend not to "
+"improve their skills much however their knowledge of poison can come in for "
+"more than just hunting."
+msgstr ""
+
+#. [unit_type]: id=EFM_Whisper, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/b3_Whisper.cfg:5
+msgid "Whisper"
+msgstr ""
+
+#. [unit_type]: id=EFM_Whisper, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/b3_Whisper.cfg:20
+msgid ""
+"It is said that when these elite hunters move you will here nothing but 'the "
+"whisper of the wind' which is the source of their name. In any case a force "
+"of these means swift and silent death to an unwary foe."
+msgstr ""
+
+#. [unit_type]: id=EFM_Beastman, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/c1_Beastman.cfg:5
+msgid "Beastman"
+msgstr ""
+
+#. [unit_type]: id=EFM_Beastman, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/c1_Beastman.cfg:18
+msgid ""
+"The beastmen are a particularly savage breed of darklander warriors who "
+"fight with incredible strength and fury however their style is reckless and "
+"not overly skilled."
+msgstr ""
+
+#. [attack]: type=blade
+#: Era_of_Four_Moons/units/Darklanders/c2_BeastSkull.cfg:30
+#: Era_of_Four_Moons/units/Darklanders/c1_Beastman.cfg:29
+msgid "great sword"
+msgstr ""
+
+#. [unit_type]: id=EFM_Beastskull, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/c2_BeastSkull.cfg:5
+msgid "Beastskull"
+msgstr ""
+
+#. [unit_type]: id=EFM_Beastskull, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/c2_BeastSkull.cfg:19
+msgid ""
+"Veteran beastmen wear skull masks rather than wood as a symbol of their "
+"power."
+msgstr ""
+
+#. [unit_type]: id=EFM_JaguarRider, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/d1_JaguarRider.cfg:5
+msgid "Jaguar Rider"
+msgstr ""
+
+#. [unit_type]: id=EFM_JaguarRider, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/d1_JaguarRider.cfg:18
+msgid ""
+"Even the younger children can aid the darklanders in their war efforts. "
+"Although not capable of fighting themselves they are small enough to ride "
+"the domesticated hunting cats that the darklanders breed. These cats can "
+"move swiftly through the jungle and are fierce fighters."
+msgstr ""
+
+#. [attack]: type=blade
+#: Era_of_Four_Moons/units/Darklanders/d2_PantherRider.cfg:38
+#: Era_of_Four_Moons/units/Darklanders/d2_LeopardRider.cfg:34
+#: Era_of_Four_Moons/units/Darklanders/d2_CheetahRider.cfg:34
+#: Era_of_Four_Moons/units/Darklanders/d1_JaguarRider.cfg:33
+msgid "jaws"
+msgstr ""
+
+#. [unit_type]: id=EFM_CheetahRider, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/d2_CheetahRider.cfg:5
+msgid "Cheetah Rider"
+msgstr ""
+
+#. [unit_type]: id=EFM_CheetahRider, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/d2_CheetahRider.cfg:19
+msgid ""
+"Cheetahs are the fastest known land animal in the world. The darklanders "
+"have managed to domesticate a few but only a strong child can ride one "
+"moving at full speed."
+msgstr ""
+
+#. [unit_type]: id=EFM_LeopardRider, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/d2_LeopardRider.cfg:5
+msgid "Leopard Rider"
+msgstr ""
+
+#. [unit_type]: id=EFM_LeopardRider, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/d2_LeopardRider.cfg:19
+msgid ""
+"Leopards are larger and stronger beasts than jaguars and require older and "
+"more experienced riders to be guided."
+msgstr ""
+
+#. [unit_type]: id=EFM_PantherRider, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/d2_PantherRider.cfg:5
+msgid "Panther Rider"
+msgstr ""
+
+#. [unit_type]: id=EFM_PantherRider, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/d2_PantherRider.cfg:19
+msgid ""
+"Panthers are mounts trusted only to experienced children who can be relied "
+"on not to scream or yell for such would sacrifice the stealth the panthers "
+"are used for."
+msgstr ""
+
+#. [unit_type]: id=EFM_Viper, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/e1_Viper.cfg:5
+msgid "Viper"
+msgstr ""
+
+#. [unit_type]: id=EFM_Viper, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/e1_Viper.cfg:18
+msgid ""
+"The jungle tribes have never objected to using poison in war. Warriors who "
+"use poison are called vipers. Vipers traditional method of delivering poison "
+"is via blades on a long whip. Once they have successfully poisoned their foe "
+"the viper will attempt to avoid their enemy till the poison does its work."
+msgstr ""
+
+#. [attack]: type=blade
+#: Era_of_Four_Moons/units/Darklanders/e2_Serpent.cfg:36
+#: Era_of_Four_Moons/units/Darklanders/e1_Viper.cfg:35
+msgid "whip"
+msgstr ""
+
+#. [unit_type]: id=EFM_Serpent, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/e2_Serpent.cfg:5
+msgid "Serpent"
+msgstr ""
+
+#. [unit_type]: id=EFM_Serpent, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/e2_Serpent.cfg:19
+msgid ""
+"A viper who becomes particularly skilled with the whip can use it to trip "
+"and slow down his foes."
+msgstr ""
+
+#. [unit_type]: id=EFM_Malice, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/f1_Malice.cfg:5
+msgid "Malice of the Gods"
+msgstr ""
+
+#. [unit_type]: id=EFM_Malice, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/f1_Malice.cfg:24
+msgid ""
+"The darklander priests teach of angry gods and of unending war and hatred. "
+"Ironically the savage darklander populace mostly ignores them, dismissing "
+"them as raving lunatics. They will however turn to them for leadership "
+"during times of war where their strange rites and rants prove to be an "
+"effective force. Foes who have fought them describe the experience as being "
+"like exposed to a horrible combination of fear, fatigue and excitement."
+msgstr ""
+
+#. [attack]: type=arcane
+#: Era_of_Four_Moons/units/Darklanders/f2_Wrath.cfg:35
+#: Era_of_Four_Moons/units/Darklanders/f1_Malice.cfg:35
+#: Era_of_Four_Moons/units/Darklanders/f3_Vengence.cfg:30
+#: Era_of_Four_Moons/units/Darklanders/f4_Judgement.cfg:31
+msgid "fury"
+msgstr ""
+
+#. [unit_type]: id=EFM_Wrath, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/f2_Wrath.cfg:5
+msgid "Wrath of the Gods"
+msgstr ""
+
+#. [unit_type]: id=EFM_Wrath, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/f2_Wrath.cfg:24
+msgid ""
+"It is sometime joked that if the darklanders payed more attention to their "
+"priests then the priests would stop being angry and have nothing left to "
+"preach about. As it is the darklanders are merely content that the priests "
+"always unload the 'anger of the gods' on other people."
+msgstr ""
+
+#. [unit_type]: id=EFM_Vengence, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/f3_Vengence.cfg:5
+msgid "Vengence of the Gods"
+msgstr ""
+
+#. [unit_type]: id=EFM_Vengence, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/f3_Vengence.cfg:19
+msgid ""
+"If a priest obtains a sufficent amount of power he will start to be feared "
+"even by his own kin. Even more, his blood lust will start to infect those "
+"who listen to him."
+msgstr ""
+
+#. [unit_type]: id=EFM_Judgement, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/f4_Judgement.cfg:5
+msgid "Judgement of the Gods"
+msgstr ""
+
+#. [unit_type]: id=EFM_Judgement, race=EFMdarklander
+#: Era_of_Four_Moons/units/Darklanders/f4_Judgement.cfg:20
+msgid ""
+"A truly powerful priest is a terrible force. Although feared by both friend "
+"and foe, those who listen cannot help but be fascinated by his words. Almost "
+"invariably these priests muster up huge hordes of followers and lead them on "
+"rampages that last until the priest is slain throwing himself into battle "
+"recklessly."
+msgstr ""
+
+#. [unit_type]: id=EFM_Brave, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/a1_Brave.cfg:5
+msgid "Brave"
+msgstr ""
+
+#. [unit_type]: id=EFM_Brave, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/a1_Brave.cfg:18
+msgid ""
+"The highlander nomads are a rough lot. In times of war the young men are "
+"rounded up and given war clubs. Brave is the title of a young and willing "
+"but unproven warrior."
+msgstr ""
+
+#. [attack]: type=impact
+#: Era_of_Four_Moons/units/Highlanders/a2_Warrior.cfg:32
+#: Era_of_Four_Moons/units/Highlanders/a3_Chief.cfg:33
+#: Era_of_Four_Moons/units/Highlanders/a1_Brave.cfg:32
+msgid "war club"
+msgstr ""
+
+#. [unit_type]: id=EFM_HighlanderWarrior, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/a2_Warrior.cfg:5
+msgid "Warrior"
+msgstr ""
+
+#. [unit_type]: id=EFM_HighlanderWarrior, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/a2_Warrior.cfg:18
+msgid "Braves you have proven themselves may call themselves warriors."
+msgstr ""
+
+#. [unit_type]: id=EFM_HighlanderChief, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/a3_Chief.cfg:5
+msgid "Chief"
+msgstr ""
+
+#. [unit_type]: id=EFM_HighlanderChief, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/a3_Chief.cfg:19
+msgid ""
+"The strongest of warriors is called to lead them as chief. In this role they "
+"serve mainly as a figure-head; the lion masters are the actual tacticians "
+"and leaders. However few would underestimate their role on the battlefield."
+msgstr ""
+
+#. [unit_type]: id=EFM_Hunter, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/b1_Hunter.cfg:5
+msgid "Hunter"
+msgstr ""
+
+#. [unit_type]: id=EFM_Hunter, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/b1_Hunter.cfg:18
+msgid ""
+"The highlanders earn most of their food by herding and hunting. The hunters "
+"must be both swift and accurate to hunt the rodents that dig into the "
+"plateau. These skills aid them in times of war."
+msgstr ""
+
+#. [attack]: type=pierce
+#: Era_of_Four_Moons/units/Highlanders/f2_Oliephant.cfg:50
+#: Era_of_Four_Moons/units/Highlanders/b2_Prowler.cfg:41
+#: Era_of_Four_Moons/units/Highlanders/g2_Hippopotamus.cfg:43
+#: Era_of_Four_Moons/units/Highlanders/b1_Hunter.cfg:41
+#: Era_of_Four_Moons/units/Highlanders/b3_ManHunter.cfg:42
+#: Era_of_Four_Moons/units/Highlanders/f1_Elephant.cfg:49
+#: Era_of_Four_Moons/units/Highlanders/g1_Hippo.cfg:42
+msgid "bow"
+msgstr ""
+
+#. [unit_type]: id=EFM_Prowler, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/b2_Prowler.cfg:5
+msgid "Prowler"
+msgstr ""
+
+#. [unit_type]: id=EFM_Prowler, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/b2_Prowler.cfg:18
+msgid ""
+"These hunters are called prowlers in honor of their ability to hunt humans."
+msgstr ""
+
+#. [unit_type]: id=EFM_ManHunter, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/b3_ManHunter.cfg:5
+msgid "Man Hunter"
+msgstr ""
+
+#. [unit_type]: id=EFM_ManHunter, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/b3_ManHunter.cfg:19
+msgid "A Man Hunter is quite aptly named and not easily defeated."
+msgstr ""
+
+#. [unit_type]: id=EFM_LionWarrior, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/c1_LionWarrior.cfg:5
+msgid "Lion Warrior"
+msgstr ""
+
+#. [unit_type]: id=EFM_LionWarrior, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/c1_LionWarrior.cfg:18
+msgid ""
+"Lion warriors are highlanders who are especially trained to fight. To prove "
+"themselves worthy they must slay a lion after which they are trained by the "
+"arms-master. The style they are taught emphasizes agility. Units of these "
+"warriors have been known to slip through even small gaps in enemy formations."
+msgstr ""
+
+#. [unit_type]: id=EFM_LionAdept, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/c2_LionAdept.cfg:5
+msgid "Lion Adept"
+msgstr ""
+
+#. [unit_type]: id=EFM_LionAdept, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/c2_LionAdept.cfg:18
+msgid ""
+"Veteran lion warriors become known as adepts and are allowed to train "
+"apprentices. They are also expected to lead the warparties."
+msgstr ""
+
+#. [unit_type]: id=EFM_LionRenegade, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/c2_LionRenegade.cfg:5
+msgid "Lion Renegade"
+msgstr ""
+
+#. [unit_type]: id=EFM_LionRenegade, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/c2_LionRenegade.cfg:18
+msgid ""
+"Some veteran lion warriors decline to take on apprentices so that they can "
+"spend their time focusing on their own strength. This is generally "
+"considered the dishonorable or unresponcible path but nobody stops them."
+msgstr ""
+
+#. [unit_type]: id=EFM_LionMaster, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/c3_LionMaster.cfg:5
+msgid "Lion Master"
+msgstr ""
+
+#. [unit_type]: id=EFM_LionMaster, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/c3_LionMaster.cfg:19
+msgid ""
+"The lion masters are the grand tacticians and military leaders of the "
+"highlander tribes. They both lead troops with skill and cunning and are "
+"fierce warriors in their own right."
+msgstr ""
+
+#. [unit_type]: id=EFM_LionMaverick, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/c3_LionMavrick.cfg:5
+msgid "Lion Maverick"
+msgstr ""
+
+#. [unit_type]: id=EFM_LionMaverick, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/c3_LionMavrick.cfg:19
+msgid ""
+"Renegades who build up their skills tend to become arrogant, "
+"individualistic, and indomitably skilled with their weapon."
+msgstr ""
+
+#. [unit_type]: id=EFM_Runner, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/d1_Runner.cfg:5
+msgid "Runner"
+msgstr ""
+
+#. [unit_type]: id=EFM_Runner, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/d1_Runner.cfg:18
+msgid ""
+"The runners of the highlands are renown for their ability to run down "
+"horses. Untrained horses when they sense danger will run as fast as they can "
+"to get away. Although the runner cannot match that speed he will give chase "
+"knowing that he can run for longer. Though the chase may last for quite "
+"awhile the runner will surely win in the end."
+msgstr ""
+
+#. [unit_type]: id=EFM_Strider, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/d2_Strider.cfg:5
+msgid "Strider"
+msgstr ""
+
+#. [unit_type]: id=EFM_Strider, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/d2_Strider.cfg:18
+msgid ""
+"In addition to pushing the limits of human endurance a strider also verses "
+"himself in combat with spear and javelin to allow it to more effectively aid "
+"it's tribe in battle."
+msgstr ""
+
+#. [unit_type]: id=EFM_WindWalker, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/d3_WindWalker.cfg:5
+msgid "Wind Walker"
+msgstr ""
+
+#. [unit_type]: id=EFM_WindWalker, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/d3_WindWalker.cfg:19
+msgid ""
+"A runner who just keeps pushing himself is said to be able to run forever. "
+"The wind walker are the closest thing the world has to proving this true."
+msgstr ""
+
+#. [unit_type]: id=EFM_WitchDoctor, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/e1_WitchDoctor.cfg:5
+msgid "Witch Doctor"
+msgstr ""
+
+#. [unit_type]: id=EFM_WitchDoctor, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/e1_WitchDoctor.cfg:18
+msgid ""
+"Injury and illness are common parts of the lives of the nomads. To battle "
+"these constant foes live an odd breed of men known as witch doctors. Though "
+"dogged and somewhat crazy they are effective healers and the curse of a "
+"witch doctor is not a light threat."
+msgstr ""
+
+#. [attack]: type=arcane
+#: Era_of_Four_Moons/units/Highlanders/e2_Warlock.cfg:47
+#: Era_of_Four_Moons/units/Highlanders/e3_SpirtWielder.cfg:48
+#: Era_of_Four_Moons/units/Highlanders/e2_Shaman.cfg:47
+#: Era_of_Four_Moons/units/Highlanders/e1_WitchDoctor.cfg:47
+msgid "curse"
+msgstr ""
+
+#. [unit_type]: id=EFM_Shaman, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/e2_Shaman.cfg:5
+msgid "Shaman"
+msgstr ""
+
+#. [unit_type]: id=EFM_Shaman, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/e2_Shaman.cfg:18
+msgid ""
+"When witch doctors embark on the second stage of their mastery they must "
+"choose either the light path or the dark path. Those who choose the light "
+"path gain greater ability to heal."
+msgstr ""
+
+#. [unit_type]: id=EFM_Warlock, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/e2_Warlock.cfg:5
+msgid "Warlock"
+msgstr ""
+
+#. [unit_type]: id=EFM_Warlock, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/e2_Warlock.cfg:18
+msgid ""
+"When witch doctors embark on the second stage of their mastery they must "
+"choose either the light path or the dark path. Those who choose the dark "
+"path gain potency for their curses."
+msgstr ""
+
+#. [unit_type]: id=EFM_SpiritWielder, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/e3_SpirtWielder.cfg:5
+msgid "Spirit Wielder"
+msgstr ""
+
+#. [unit_type]: id=EFM_SpiritWielder, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/e3_SpirtWielder.cfg:19
+msgid ""
+"Regardless of which path the witch doctor takes, he ends in the same "
+"location. A powerful magician who can channel spirits to heal or harm his "
+"foes."
+msgstr ""
+
+#. [unit_type]: id=EFM_Elephant, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/f1_Elephant.cfg:5
+msgid "Elephant"
+msgstr ""
+
+#. [unit_type]: id=EFM_Elephant, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/f1_Elephant.cfg:20
+msgid ""
+"The most famous tool of the highlander war effort is undoubtably the "
+"elephant. These massive beasts have incredible power and toughness and are "
+"capable of literally trampling foes underfoot. In addition archers can be "
+"positioned on their back and provide support from above. For all their might "
+"they do have a couple weaknesses, not the least of which is that they are "
+"not able to control the area on their flanks easily and are unable to "
+"effectively retaliate against foes attacking them from the sides or the "
+"rear. Notes: Elephants have no ZoC. The trample special means that the "
+"elephants will move into the hex of the unit they kill and will have 2 extra "
+"strikes on offense."
+msgstr ""
+
+#. [attack]: type=impact
+#: Era_of_Four_Moons/units/Highlanders/f2_Oliephant.cfg:38
+#: Era_of_Four_Moons/units/Highlanders/f1_Elephant.cfg:37
+msgid "crush"
+msgstr ""
+
+#. [unit_type]: id=EFM_Oliephant, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/f2_Oliephant.cfg:5
+msgid "Oliephant"
+msgstr ""
+
+#. [unit_type]: id=EFM_Oliephant, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/f2_Oliephant.cfg:21
+msgid ""
+"Once an elephant and it's rider have both figured out how to use the "
+"elephants massive bulk to their advantage, few things can stand in their way."
+msgstr ""
+
+#. [unit_type]: id=EFM_Hippo, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/g1_Hippo.cfg:5
+msgid "Hippo"
+msgstr ""
+
+#. [unit_type]: id=EFM_Hippo, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/g1_Hippo.cfg:18
+msgid ""
+"Although the most notable mount the highlanders use is the elephant, they "
+"have also managed to domesticate hippopotamus. These creatures appear "
+"lumbering and clumsy but are incredibly agile in water and serve a number of "
+"functions for the nomadic highlanders. They can be used like cattle for "
+"milk, skin, and meat. They can also be used to transverse the rivers."
+msgstr ""
+
+#. [attack]: type=impact
+#: Era_of_Four_Moons/units/Highlanders/g2_Hippopotamus.cfg:34
+#: Era_of_Four_Moons/units/Highlanders/g1_Hippo.cfg:33
+msgid "bash"
+msgstr ""
+
+#. [unit_type]: id=EFM_Hippopotamus, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/g2_Hippopotamus.cfg:5
+msgid "Hippopotamus"
+msgstr ""
+
+#. [unit_type]: id=EFM_Hippopotamus, race=EFMhighlanders
+#: Era_of_Four_Moons/units/Highlanders/g2_Hippopotamus.cfg:19
+msgid "A truly war-bred hippopotamus is a fearsome force."
+msgstr ""
+
+#. [unit_type]: id=EFM_Legionnaire, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/a1_Legionnaire.cfg:5
+msgid "Legionnaire"
+msgstr ""
+
+#. [unit_type]: id=EFM_Legionnaire, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/a1_Legionnaire.cfg:18
+msgid ""
+"The imperialist legions are renowned throughout the world for their iron "
+"discipline and ability to win through attrition. Though expensive to train "
+"and arm without having great ability to damage their foes the legionnaire is "
+"regarded as the core of the imperialist expansion effort. A formation of "
+"these in an open field is very difficult to break."
+msgstr ""
+
+#. [attack]: type=blade
+#: Era_of_Four_Moons/units/SeaStates/b2_Veteran_Bowman.cfg:29
+#: Era_of_Four_Moons/units/SeaStates/b1_CompositeBowman.cfg:29
+#: Era_of_Four_Moons/units/SeaStates/b3_Elite_Bowman.cfg:30
+#: Era_of_Four_Moons/units/Imperialists/a3_Praetorion.cfg:35
+#: Era_of_Four_Moons/units/Imperialists/d4_Legatus.cfg:40
+#: Era_of_Four_Moons/units/Imperialists/d2_Centurion.cfg:39
+#: Era_of_Four_Moons/units/Imperialists/a1_Legionnaire.cfg:34
+#: Era_of_Four_Moons/units/Imperialists/d3_Primus.cfg:39
+#: Era_of_Four_Moons/units/Imperialists/d1_Standard.cfg:29
+#: Era_of_Four_Moons/units/Imperialists/a2_Stalwart.cfg:34
+msgid "short sword"
+msgstr ""
+
+#. [unit_type]: id=EFM_ShockTroop, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/a2_ShockTroop.cfg:5
+msgid "Shock Troop"
+msgstr ""
+
+#. [unit_type]: id=EFM_ShockTroop, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/a2_ShockTroop.cfg:18
+msgid ""
+"Although most of the imperium training goes into improving defense and "
+"discipline offensive doctrine are not beyond the scope of its military "
+"minds. Shock troops are legions specifically trained and equipped to break "
+"tough enemy units. The tactics employed leave them vulnerable to counter "
+"attacks."
+msgstr ""
+
+#. [attack]: type=impact
+#: Era_of_Four_Moons/units/Imperialists/a2_ShockTroop.cfg:34
+#: Era_of_Four_Moons/units/Imperialists/f1_Hardback.cfg:34
+#: Era_of_Four_Moons/units/Imperialists/f2_RockRider.cfg:34
+#: Era_of_Four_Moons/units/Imperialists/a3_Gargantaur.cfg:35
+#: Era_of_Four_Moons/units/Imperialists/f3_Tank.cfg:35
+msgid "mace"
+msgstr ""
+
+#. [unit_type]: id=EFM_Stalwart, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/a2_Stalwart.cfg:5
+msgid "Stalwart"
+msgstr ""
+
+#. [unit_type]: id=EFM_Stalwart, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/a2_Stalwart.cfg:18
+msgid ""
+"Stalwart is a title granted to a legion for excellence in performance on the "
+"field of combat."
+msgstr ""
+
+#. [unit_type]: id=EFM_Gargantaur, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/a3_Gargantaur.cfg:5
+msgid "Gargantaur"
+msgstr ""
+
+#. [unit_type]: id=EFM_Gargantaur, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/a3_Gargantaur.cfg:19
+msgid ""
+"Gaurgantaur means 'huge-bull' in the imperialist language. Shock troops who "
+"have broken many a foe take use this title for intimidation."
+msgstr ""
+
+#. [unit_type]: id=EFM_Praetorion, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/a3_Praetorion.cfg:5
+msgid "Praetorion"
+msgstr ""
+
+#. [unit_type]: id=EFM_Praetorion, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/a3_Praetorion.cfg:19
+msgid ""
+"The elite troops of the imperium are the praetor. Their indomitable defense "
+"is the stuff of legend."
+msgstr ""
+
+#. [unit_type]: id=EFM_Slinger, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/b1_Slinger.cfg:5
+msgid "Slinger"
+msgstr ""
+
+#. [unit_type]: id=EFM_Slinger, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/b1_Slinger.cfg:18
+msgid ""
+"Unlike the Sea States the imperialists never really picked up the bow as "
+"common weapon. Cloth and stone was always in greater abundance than wood so "
+"those who managed the flocks tended to use sling or sling staves. One of the "
+"legions more common auxiliaries are conscripts armed with sling staves. "
+"These weapons are very awkward to use in forests."
+msgstr ""
+
+#. [attack]: type=impact
+#: Era_of_Four_Moons/units/Imperialists/b2_Spiker.cfg:33
+#: Era_of_Four_Moons/units/Imperialists/b2_Flinger.cfg:33
+#: Era_of_Four_Moons/units/Imperialists/b1_Slinger.cfg:32
+msgid "staff"
+msgstr ""
+
+#. [attack]: type=blade
+#. [attack]: type=impact
+#: Era_of_Four_Moons/units/Imperialists/b2_Spiker.cfg:42
+#: Era_of_Four_Moons/units/Imperialists/b2_Flinger.cfg:42
+#: Era_of_Four_Moons/units/Imperialists/b1_Slinger.cfg:41
+msgid "sling staff"
+msgstr ""
+
+#. [unit_type]: id=EFM_Flinger, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/b2_Flinger.cfg:5
+msgid "Flinger"
+msgstr ""
+
+#. [unit_type]: id=EFM_Flinger, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/b2_Flinger.cfg:19
+msgid ""
+"Sadly, even the most experienced of slinger units cannot achieve much extra "
+"power, however they become quick reloaders and adept staff warriors."
+msgstr ""
+
+#. [unit_type]: id=EFM_Spiker, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/b2_Spiker.cfg:5
+msgid "Spiker"
+msgstr ""
+
+#. [unit_type]: id=EFM_Spiker, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/b2_Spiker.cfg:19
+msgid ""
+"One of the imperiums more sadistic tactics it to produce huge numbers of "
+"cultraps and special slings have their slingers launch them. It is tricky to "
+"quickly load and throw these traps so it is only ever employed when there "
+"are veteran slingers on the field. Having cultraps fall into close ranks of "
+"troops is a sure and painful way to slow them down."
+msgstr ""
+
+#. [unit_type]: id=EFM_Pelite, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/c1_Pelite.cfg:5
+msgid "Pelite"
+msgstr ""
+
+#. [unit_type]: id=EFM_Pelite, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/c1_Pelite.cfg:18
+msgid ""
+"The imperium is most well known for the legionaries, however every "
+"experienced commander knows that the auxiliaries play a very important role. "
+"One of the more common auxiliaries is the pelite. These warriors are the "
+"only unit in the imperium specifically trained to fight in forests."
+msgstr ""
+
+#. [unit_type]: id=EFM_Velite, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/c2_Velite.cfg:5
+msgid "Velite"
+msgstr ""
+
+#. [unit_type]: id=EFM_Velite, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/c2_Velite.cfg:18
+msgid "The velite skirmishers are valued units in the imperium."
+msgstr ""
+
+#. [unit_type]: id=EFM_Equite, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/c3_Equite.cfg:5
+msgid "Equite"
+msgstr ""
+
+#. [unit_type]: id=EFM_Equite, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/c3_Equite.cfg:19
+msgid ""
+"Although the auxiliaries are drawn from the provinces if one achieves "
+"sufficient rank in the military it is granted citizenship. An equite is a "
+"velite who has earned this honor."
+msgstr ""
+
+#. [unit_type]: id=EFM_Standard, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/d1_Standard.cfg:5
+msgid "Standard"
+msgstr ""
+
+#. [unit_type]: id=EFM_Standard, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/d1_Standard.cfg:18
+msgid ""
+"The saying among the legionnaires is that if you can keep your standard "
+"erect you are holding the line. Standards not only tell soldiers where they "
+"are supposed to be and where their officer is but are also a symbol of "
+"strength. The standards effect on moral bolsters the resistances of the "
+"units around it. The officer guarding the standard is armed with a crossbow "
+"and short sword and would die before he sees his position fall."
+msgstr ""
+
+#. [attack]: type=pierce
+#: Era_of_Four_Moons/units/Imperialists/d4_Legatus.cfg:49
+#: Era_of_Four_Moons/units/Imperialists/d2_Centurion.cfg:48
+#: Era_of_Four_Moons/units/Imperialists/d3_Primus.cfg:48
+#: Era_of_Four_Moons/units/Imperialists/d1_Standard.cfg:38
+msgid "crossbow"
+msgstr ""
+
+#. [unit_type]: id=EFM_Centurion, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/d2_Centurion.cfg:5
+msgid "Centurion"
+msgstr ""
+
+#. [unit_type]: id=EFM_Centurion, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/d2_Centurion.cfg:18
+msgid ""
+"A centurion is a veteran officer who has proven his worth. In addition to "
+"the effects of holding his standard he can also lead men so that they can "
+"more effectively attack."
+msgstr ""
+
+#. [unit_type]: id=EFM_Primus, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/d3_Primus.cfg:5
+msgid "Primus"
+msgstr ""
+
+#. [unit_type]: id=EFM_Primus, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/d3_Primus.cfg:18
+msgid ""
+"A Primus is a high ranking officer in the imperium granted command of many "
+"men. He is allowed to display any symbol (save the imperials families Crest "
+"of Unity) on his standard as he leads men into battle."
+msgstr ""
+
+#. [unit_type]: id=EFM_Legatus, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/d4_Legatus.cfg:5
+msgid "Legatus"
+msgstr ""
+
+#. [unit_type]: id=EFM_Legatus, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/d4_Legatus.cfg:19
+msgid ""
+"The Legatus is the supreme commander of a large portion of the army "
+"appointed by a member of the imperial family. This is the only rank that is "
+"allowed to display the Crest of Unity on his standard. Despite this high "
+"rank, the Legatus are still expected to plunge into the midst of battle and "
+"to hold the most critical points with their standard."
+msgstr ""
+
+#. [unit_type]: id=EFM_Sapper, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/e1_Sapper.cfg:20
+msgid ""
+"The sappers are all slaves who have been given the opportunity to die "
+"honorably. The legions rarely run short on volunteers as many of the "
+"conquered people were proud folk who would rather die in battle than be a "
+"servant for the rest of their lives. It is not unknown for free citizens to "
+"take the role too if they feel sufficiently disgraced. Note: Their attack "
+"reduces their targets current experience by the % of their current defense."
+msgstr ""
+
+#. [attack]: type=fire
+#: Era_of_Four_Moons/units/Imperialists/e1_Sapper.cfg:32
+msgid "light the fuse"
+msgstr ""
+
+#. [unstore_unit]
+#: Era_of_Four_Moons/units/Imperialists/e1_Sapper.cfg:129
+msgid "Boom!"
+msgstr ""
+
+#. [unit_type]: id=EFM_Hardback, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/f1_Hardback.cfg:5
+msgid "Hardback"
+msgstr ""
+
+#. [unit_type]: id=EFM_Hardback, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/f1_Hardback.cfg:18
+msgid ""
+"The imperialists generally do not use horses. However seeing the advantages "
+"of mobility on the battlefield they have been known to train giant "
+"armadillos as mounts. The natural armor and bulk of the armadillo makes it a "
+"very durable and dangerous beast."
+msgstr ""
+
+#. [unit_type]: id=EFM_RockRider, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/f2_RockRider.cfg:5
+msgid "Rock Rider"
+msgstr ""
+
+#. [unit_type]: id=EFM_RockRider, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/f2_RockRider.cfg:18
+msgid ""
+"Rock rider is derived from the jokes the foot soldiers make about the "
+"hardbacks. Even if the jokes are generally derogatory in nature the "
+"toughness of these warriors is greatly valued by the imperium."
+msgstr ""
+
+#. [unit_type]: id=EFM_Avalanche, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/f3_Avalanche.cfg:5
+msgid "Avalanche"
+msgstr ""
+
+#. [unit_type]: id=EFM_Avalanche, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/f3_Avalanche.cfg:19
+msgid ""
+"At a certain point, some of the most experienced rock riders start actually "
+"taking off armor. They do this so that their mounts can accelerate quicker "
+"to preform devastating charges with a lance. The combined mass of the "
+"armadillo and rider give this attack terrible power."
+msgstr ""
+
+#. [unit_type]: id=EFM_Tank, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/f3_Tank.cfg:5
+msgid "Tank"
+msgstr ""
+
+#. [unit_type]: id=EFM_Tank, race=EFMimperialists
+#: Era_of_Four_Moons/units/Imperialists/f3_Tank.cfg:19
+msgid ""
+"When both armadillo and rider are hardened into a fighting machine they "
+"become one of the toughest fighting units on the planet."
+msgstr ""
+
+#. [unit_type]: id=EFM_Regimenteer, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/a1_Regimenteer.cfg:5
+msgid "Regimenteer"
+msgstr ""
+
+#. [unit_type]: id=EFM_Regimenteer, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/a1_Regimenteer.cfg:18
+msgid ""
+"The regiments of the sea states are the personal armies of the merchant "
+"lords. They tend to be well outfitted and trained to fight in their native "
+"land which is a tangled snarl of hills and rivers along the ocean cost."
+msgstr ""
+
+#. [attack]: type=blade
+#: Era_of_Four_Moons/units/SeaStates/a1_Regimenteer.cfg:29
+#: Era_of_Four_Moons/units/SeaStates/a2_Retainer.cfg:29
+#: Era_of_Four_Moons/units/SeaStates/a3_HouseGuard.cfg:30
+#: Era_of_Four_Moons/units/SeaStates/a3_MerchantLord.cfg:34
+#: Era_of_Four_Moons/units/SeaStates/a2_GuildOfficer.cfg:33
+msgid "axe"
+msgstr ""
+
+#. [unit_type]: id=EFM_GuildOfficer, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/a2_GuildOfficer.cfg:5
+msgid "Guild Officer"
+msgstr ""
+
+#. [unit_type]: id=EFM_GuildOfficer, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/a2_GuildOfficer.cfg:18
+msgid ""
+"Some regimenteers are granted honorary positions in the guild so that they "
+"can take the role of officer. Although in theory some guild officers are "
+"appointed from the ranks of the artisans they tend not to have the respect "
+"of the men and are not deployed on the battlefield."
+msgstr ""
+
+#. [unit_type]: id=EFM_Retainer, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/a2_Retainer.cfg:5
+msgid "Retainer"
+msgstr ""
+
+#. [unit_type]: id=EFM_Retainer, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/a2_Retainer.cfg:18
+msgid ""
+"Loyal and experienced regimenteers are often offered a longer term contract "
+"called a retainer."
+msgstr ""
+
+#. [unit_type]: id=EFM_HouseGuard, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/a3_HouseGuard.cfg:5
+msgid "House Guard"
+msgstr ""
+
+#. [unit_type]: id=EFM_HouseGuard, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/a3_HouseGuard.cfg:19
+msgid ""
+"The most trusted and respected of the regimenteers are assigned to guard the "
+"houses of the merchant lords from the frequent assassination attempts. Even "
+"though these soldiers have fought for their lords time and time again, the "
+"merchant lords always make sure that these guards are very well paid in an "
+"effort to prevent bribery."
+msgstr ""
+
+#. [unit_type]: id=EFM_MerchantLord, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/a3_MerchantLord.cfg:5
+msgid "Merchant Lord"
+msgstr ""
+
+#. [unit_type]: id=EFM_MerchantLord, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/a3_MerchantLord.cfg:19
+msgid ""
+"Whether through inheritance or by rising through the ranks a merchant lord "
+"is a wealthy man who finances and organizes trading expeditions through the "
+"sea states and probably owns land. Due to the nature of politics in the sea "
+"states, each merchant lord will have a private army on contract and most "
+"have no qualms about using it to gain money in less than legitimate ways. "
+"Many merchant lords are former warriors themselves who earned position in "
+"various guilds and who are quite a force on the battlefield personally."
+msgstr ""
+
+#. [unit_type]: id=EFM_CompositeBowman, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/b1_CompositeBowman.cfg:5
+msgid "Composite Bowman"
+msgstr ""
+
+#. [unit_type]: id=EFM_CompositeBowman, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/b1_CompositeBowman.cfg:18
+msgid ""
+"Since their early days the militaries of the sea states have been fascinated "
+"with the military utility of the bow. They have studies the best ways to use "
+"and build these weapons. With the development of the composite bow the "
+"archer regiments of the sea states have become a force to be feared."
+msgstr ""
+
+#. [attack]: type=pierce
+#: Era_of_Four_Moons/units/SeaStates/b2_Veteran_Bowman.cfg:38
+#: Era_of_Four_Moons/units/SeaStates/c3_Clibanarii.cfg:40
+#: Era_of_Four_Moons/units/SeaStates/c1_HorseArcher.cfg:34
+#: Era_of_Four_Moons/units/SeaStates/b1_CompositeBowman.cfg:38
+#: Era_of_Four_Moons/units/SeaStates/c2_Sagiharii.cfg:34
+#: Era_of_Four_Moons/units/SeaStates/b3_Elite_Bowman.cfg:39
+msgid "compound bow"
+msgstr ""
+
+#. [unit_type]: id=EFM_VeteranBowman, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/b2_Veteran_Bowman.cfg:5
+msgid "Veteran Bowman"
+msgstr ""
+
+#. [unit_type]: id=EFM_VeteranBowman, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/b2_Veteran_Bowman.cfg:18
+msgid ""
+"Archery is a field where experience and practice can go a long way toward "
+"improving the effects."
+msgstr ""
+
+#. [unit_type]: id=EFM_EliteBowman, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/b3_Elite_Bowman.cfg:5
+msgid "Elite Bowman"
+msgstr ""
+
+#. [unit_type]: id=EFM_EliteBowman, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/b3_Elite_Bowman.cfg:19
+msgid ""
+"These archers can demand whatever price they feel from the merchant lords "
+"and chances are they will get it."
+msgstr ""
+
+#. [unit_type]: id=EFM_HorseArcher, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/c1_HorseArcher.cfg:5
+msgid "Horse Archer"
+msgstr ""
+
+#. [unit_type]: id=EFM_HorseArcher, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/c1_HorseArcher.cfg:18
+msgid ""
+"The merchant lords of the Sea States are well aware of the value of mobility "
+"and the power of compound bows. They are willing to fund long and expensive "
+"training programs to train warriors to be reasonably accurate archers while "
+"on horseback."
+msgstr ""
+
+#. [attack]: type=blade
+#: Era_of_Four_Moons/units/SeaStates/d3_Cataphract.cfg:31
+#: Era_of_Four_Moons/units/SeaStates/c3_Clibanarii.cfg:31
+#: Era_of_Four_Moons/units/SeaStates/c1_HorseArcher.cfg:25
+#: Era_of_Four_Moons/units/SeaStates/c2_Sagiharii.cfg:25
+#: Era_of_Four_Moons/units/SeaStates/d2_Raider.cfg:25
+#: Era_of_Four_Moons/units/SeaStates/d1_Rider.cfg:25
+msgid "saber"
+msgstr ""
+
+#. [unit_type]: id=EFM_Sagiharii, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/c2_Sagiharii.cfg:5
+msgid "Sagiharii"
+msgstr ""
+
+#. [unit_type]: id=EFM_Sagiharii, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/c2_Sagiharii.cfg:18
+msgid ""
+"Sagiharrii are uniquely suited to hit and run tactics as they have the speed "
+"and range to strike first, the toughness to survive the counter attack, and "
+"the speed to escape."
+msgstr ""
+
+#. [unit_type]: id=EFM_Clibanarii, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/c3_Clibanarii.cfg:5
+msgid "Clibbanarii"
+msgstr ""
+
+#. [unit_type]: id=EFM_Clibanarii, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/c3_Clibanarii.cfg:19
+msgid ""
+"It takes a great deal of skill to be proficient at horse archery even "
+"without wearing heavy armor but the Clibanarii succeed at it despite this."
+msgstr ""
+
+#. [unit_type]: id=EFM_Rider, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/d1_Rider.cfg:5
+msgid "Rider"
+msgstr ""
+
+#. [unit_type]: id=EFM_Rider, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/d1_Rider.cfg:18
+msgid "Mounted forces have long been an important auxiliary of the regiments."
+msgstr ""
+
+#. [unit_type]: id=EFM_Raider, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/d2_Raider.cfg:5
+msgid "Raider"
+msgstr ""
+
+#. [unit_type]: id=EFM_Raider, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/d2_Raider.cfg:18
+msgid ""
+"Raiders are a merchant lords preferred force for pillaging the border "
+"villages of his neighbors."
+msgstr ""
+
+#. [unit_type]: id=EFM_Cataphract, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/d3_Cataphract.cfg:5
+msgid "Cataphract"
+msgstr ""
+
+#. [unit_type]: id=EFM_Cataphract, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/d3_Cataphract.cfg:19
+msgid ""
+"Cataphracts are the seas states heaviest cavalry units.  They have known for "
+"their ability to deliver great power and great speed at the same time."
+msgstr ""
+
+#. [unit_type]: id=EFM_Alchemist, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/e1_Alchemist.cfg:5
+msgid "Alchemist"
+msgstr ""
+
+#. [unit_type]: id=EFM_Alchemist, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/e1_Alchemist.cfg:18
+msgid ""
+"One of the strangest guilds in the Sea States is the Alchemists guild. It is "
+"secretive and mysterious with peculiar recruiting standards and very little "
+"interest in politics. Members of the guild have been known to enlist in the "
+"regiments where their strange skills are in high demand."
+msgstr ""
+
+#. [attack]: type=arcane
+#: Era_of_Four_Moons/units/SeaStates/e2_Concoctionist.cfg:35
+#: Era_of_Four_Moons/units/SeaStates/e1_Alchemist.cfg:34
+msgid "poison canister"
+msgstr ""
+
+#. [attack]: type=arcane
+#: Era_of_Four_Moons/units/SeaStates/e2_Concoctionist.cfg:47
+#: Era_of_Four_Moons/units/SeaStates/e2_Doctor.cfg:38
+#: Era_of_Four_Moons/units/SeaStates/e1_Alchemist.cfg:46
+msgid "paralysis powder"
+msgstr ""
+
+#. [unit_type]: id=EFM_Concoctionist, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/e2_Concoctionist.cfg:5
+msgid "Concoctionist"
+msgstr ""
+
+#. [unit_type]: id=EFM_Concoctionist, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/e2_Concoctionist.cfg:19
+msgid ""
+"As alchemists practice more, the substances they can create become steadily "
+"nastier."
+msgstr ""
+
+#. [unit_type]: id=EFM_Doctor, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/e2_Doctor.cfg:5
+msgid "Doctor"
+msgstr ""
+
+#. [unit_type]: id=EFM_Doctor, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/e2_Doctor.cfg:19
+msgid ""
+"Some alchemists choose to study how to heal bodies rather than how to harm "
+"them. These are even more highly valued than their more aggressive brethren. "
+"They also take an oath which unfortunately forbids using poison on their "
+"enemies however it says nothing about paralysis powder."
+msgstr ""
+
+#. [unit_type]: id=EFM_Ballista, race=mechanical
+#: Era_of_Four_Moons/units/SeaStates/f1_Ballista.cfg:5
+msgid "Ballista"
+msgstr ""
+
+#. [unit_type]: id=EFM_Ballista, race=mechanical
+#: Era_of_Four_Moons/units/SeaStates/f1_Ballista.cfg:18
+msgid ""
+"Despite their love of bows the Sea States were never fond of the crossbow. "
+"The fire rate was just too low for the guild officers. Ballista are a "
+"different story for many commanders have found them useful in siege warfare "
+"as a tool for picking off enemy archers without taking much in the way of "
+"retaliation."
+msgstr ""
+
+#. [attack]: type=pierce
+#: Era_of_Four_Moons/units/SeaStates/f1_Ballista.cfg:25
+#: Era_of_Four_Moons/units/SeaStates/f1_Ballista.cfg:34
+#: Era_of_Four_Moons/units/SeaStates/f2_Bolter.cfg:26
+#: Era_of_Four_Moons/units/SeaStates/f2_Bolter.cfg:35
+msgid "ballista"
+msgstr ""
+
+#. [unit_type]: id=EFM_Bolter, race=mechanical
+#: Era_of_Four_Moons/units/SeaStates/f2_Bolter.cfg:5
+msgid "Bolter"
+msgstr ""
+
+#. [unit_type]: id=EFM_Bolter, race=mechanical
+#: Era_of_Four_Moons/units/SeaStates/f2_Bolter.cfg:19
+msgid ""
+"Bolters are a slightly improved form of the ballista. They are considerably "
+"more difficult to construct as there are a couple stages in the construction "
+"where the entire project will unravel if even a slight mistake was made "
+"earlier. As a result they see less use but when they do appear enemy "
+"commanders would be well adviced to take precautions for them."
+msgstr ""
+
+#. [unit_type]: id=EFM_Boatsman, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/g1_Boatman.cfg:5
+msgid "Boatsman"
+msgstr ""
+
+#. [unit_type]: id=EFM_Boatsman, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/g1_Boatman.cfg:18
+msgid ""
+"The Sea States frequently fight over land with rivers and swamps. As a "
+"result, most of the merchant lords employ a few turtle shell bearing "
+"warriors to overcome these natural barriers. Although carrying these rafts "
+"slows them down considerably on land it does not hamper their ability to "
+"fight, in fact the shells make a good makeshift shield against projectiles."
+msgstr ""
+
+#. [attack]: type=impact
+#: Era_of_Four_Moons/units/SeaStates/g1_Boatman.cfg:27
+#: Era_of_Four_Moons/units/SeaStates/g2_Turtle.cfg:27
+#: Era_of_Four_Moons/units/SeaStates/g3_Snapper.cfg:28
+msgid "paddle"
+msgstr ""
+
+#. [unit_type]: id=EFM_Turtle, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/g2_Turtle.cfg:5
+msgid "Turtle"
+msgstr ""
+
+#. [unit_type]: id=EFM_Turtle, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/g2_Turtle.cfg:18
+msgid ""
+"The defensive capabilities of the boatmen have led to the nickname 'turtle' "
+"which the more experienced ones take to with pride."
+msgstr ""
+
+#. [unit_type]: id=EFM_Snapper, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/g3_Snapper.cfg:5
+msgid "Snapper"
+msgstr ""
+
+#. [unit_type]: id=EFM_Snapper, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/g3_Snapper.cfg:19
+msgid ""
+"Snapping turtles have a significant place in sea state culture and economy. "
+"Any boatman who earns the title can rightly consider it a great honor and "
+"demand a higher fee. Most snappers can afford to pick up an extra weapon in "
+"addition to their paddle to decrease the risk of their paddle breaking"
+msgstr ""
+
+#. [race]: id=EFMdarklander
+#: Era_of_Four_Moons/units/races.cfg:5
+msgid "race^Darklander"
+msgstr ""
+
+#. [race]: id=EFMdarklander
+#: Era_of_Four_Moons/units/races.cfg:6
+msgid "race^Darklanders"
+msgstr ""
+
+#. [race]: id=EFMdarklander
+#: Era_of_Four_Moons/units/races.cfg:8
+msgid ""
+"The Darklanders are a loose confederation of jungle tribes. Known for their "
+"callous cruelty and harsh ways most other nations leave them alone. This has "
+"backfired during the rare occasions when one of their priests has convinced "
+"an entire army to come with him and attempt to slay everyone in the world "
+"but none of them have ever gotten anywhere. As an odd quirk the darklanders "
+"are also known for their skill in metalwork and art. In battle the "
+"darklanders fare much better in their home terrain than in the open. The mad "
+"aura of their priests and the frenzy of their warriors makes a powerful "
+"combination."
+msgstr ""
+
+#. [race]: id=EFMhighlanders
+#: Era_of_Four_Moons/units/races.cfg:14
+msgid "race^Highlander"
+msgstr ""
+
+#. [race]: id=EFMhighlanders
+#: Era_of_Four_Moons/units/races.cfg:15
+msgid "race^Highlanders"
+msgstr ""
+
+#. [race]: id=EFMhighlanders
+#: Era_of_Four_Moons/units/races.cfg:17
+msgid ""
+"The highlanders are a nomadic people who have never developed metal working. "
+"They have a very strong sense of spirituality to their culture and have been "
+"known to walk with many beasts (most famously the mighty elephant). They "
+"give great honor to both the herder and the hunter; both the warrior and the "
+"wiseman. Although they tend to grow larger and stronger than the men of most "
+"other nations the lack of armor tends to balance things out. They are much "
+"more adept at fighting in the hills than in the open."
+msgstr ""
+
+#. [race]: id=EFMseastates
+#: Era_of_Four_Moons/units/races.cfg:24
+msgid "race^Statesman"
+msgstr ""
+
+#. [race]: id=EFMseastates
+#: Era_of_Four_Moons/units/races.cfg:25
+msgid "race^Statesmen"
+msgstr ""
+
+#. [race]: id=EFMseastates
+#: Era_of_Four_Moons/units/races.cfg:27
+msgid ""
+"The sea states are a fairly large number of mercantile city states. The sea "
+"states compete with each other through intricate intrigues, alliances, "
+"economic games, and outright war. The cities tend to be run by the economic "
+"elite who can afford to fiance the merchants that help make the land "
+"prosperous, pay the artists and craftsmen who can make cities beautiful, "
+"and, most importantly, hire the hordes of mercenaries that come to the "
+"region looking for work. In battle the sea states troops tend to be well "
+"equipped and trained but expensive."
+msgstr ""
+
+#. [race]: id=EFMimperialists
+#: Era_of_Four_Moons/units/races.cfg:33
+msgid "race^Imperialist"
+msgstr ""
+
+#. [race]: id=EFMimperialists
+#: Era_of_Four_Moons/units/races.cfg:34
+msgid "race^Imperialists"
+msgstr ""
+
+#. [race]: id=EFMimperialists
+#: Era_of_Four_Moons/units/races.cfg:35
+msgid ""
+"The imperialist empire is the larges power on the continent. Starting as a "
+"mere city state it discovered a new brand of tactics that allowed it to "
+"spread outward. It's conquests and power have made it proud and even though "
+"its expansion has slowed it continues to spread the idea that its culture is "
+"superior. It widely regards itself as doing a favor to the slaves that it "
+"captures and promotes the virtues of patriotism. In battle the imperialists "
+"are most adept at fighting in the plains. Their discipline and high moral "
+"gives their formations a great deal of resilience but the strictness of "
+"their training inhibits their aggressive capabilities."
+msgstr ""
+
+#. [race]: id=EFMdalefolk
+#: Era_of_Four_Moons/units/races.cfg:41
+msgid "race^Dalemen"
+msgstr ""
+
+#. [race]: id=EFMdalefolk
+#: Era_of_Four_Moons/units/races.cfg:42
+msgid "race^Dalefolk"
+msgstr ""
+
+#. [race]: id=EFMdalefolk
+#: Era_of_Four_Moons/units/races.cfg:43
+msgid ""
+"Easily the most peaceful people on the continent are those who live high in "
+"the mountains were it is so cold that no other people dain to dwell there. "
+"It is said that the cold air addles their minds and gives rise to an "
+"unnatural number of hedge mages, mad inventors, and tameless wild men. "
+"However the power of their legendary machines and their fine crafts of metal "
+"have brought the occasional attempt to raid them and their stout hearted "
+"militia have never failed to rally to fight them off. In battle the dalefolk "
+"use their strange machines and magics, as well as a bit of wild lore and "
+"durability."
+msgstr ""
