@@ -1,0 +1,35 @@
+                                  ALPHA 1
+Basic stats worked out with placeholder Art
+
+				  BETA 1
+
+Basic stats with some testing and still art.
+
+.1
+Fixes to some descriptions and art
+.2
+Fixes to some art
+
+0.1.0
+Balancing changes
+-tweaked aquatic movetypes
+-oliephant damage decreased and strikes increased
+-malice attack now 7-2, can no longer get strong but can be dex
+-jaguar jp ->34
+-beastman exp increased
+-Legionaires no longer weak to cold
+
+Rocketeers cost->15
+Miners hp->36
+Mountainers oriented a little more to ranged attacks
+channelers hp->27
+herbalists hp->27
+Shifter vulnerable to arcane, higher exp, hp->33, cost 18
+
+numerous minor tweaks to hp of level 2/3 units
+
+new unit: paddleship for sea states (to give a unit that can fight imp. gallies
+
+Other
+-bug fixes
+-races added for each faction
