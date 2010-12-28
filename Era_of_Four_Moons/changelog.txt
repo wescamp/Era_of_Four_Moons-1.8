@@ -33,3 +33,8 @@ new unit: paddleship for sea states (to give a unit that can fight imp. gallies
 Other
 -bug fixes
 -races added for each faction
+
+0.2.0
+
+-Ballista moved to imperialist faction.
+-Many more minor balancing changes.
