@@ -38,3 +38,13 @@ Other
 
 -Ballista moved to imperialist faction.
 -Many more minor balancing changes.
+
+0.2.1
+
+-added remaining factions
+-A few minor balance tweaks.
+
+0.2.2/0.2.3
+
+-bug fixes for last release
+-A few minor balance tweaks.
