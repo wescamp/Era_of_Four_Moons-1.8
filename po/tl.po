@@ -2,28 +2,38 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2010-10-03 13:23+0200\n"
+"POT-Creation-Date: 2011-01-08 01:02+0100\n"
 "PO-Revision-Date: 2010-10-03 13:23+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: tl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: tl\n"
 
 #. [era]: id=era_EFM_a1
 #: Era_of_Four_Moons/EFM_eras.cfg:5
 msgid "Era of Four Moons"
 msgstr ""
 
-#. [era]: id=era_EFM_a1_Dalefolk
+#. [era]: id=era_EFM_a1_Extended
 #: Era_of_Four_Moons/EFM_eras.cfg:16
+msgid "Era of Four Moons Extended"
+msgstr ""
+
+#. [era]: id=era_EFM_a1_Extended
+#: Era_of_Four_Moons/EFM_eras.cfg:31
 msgid "Era of Four Moons + Dalefolk"
 msgstr ""
 
 #. [era]: id=era_EFM_D_a1
-#: Era_of_Four_Moons/EFM_eras.cfg:29
+#: Era_of_Four_Moons/EFM_eras.cfg:44
 msgid "EoFM + default"
+msgstr ""
+
+#. [era]: id=era_EFM_D_a1
+#: Era_of_Four_Moons/EFM_eras.cfg:65
+msgid "EoFM Ext + default"
 msgstr ""
 
 #. [multiplayer_side]: id=EFM_Dalefolk, type=EFM_Foreman
@@ -36,6 +46,11 @@ msgstr ""
 msgid "Darklanders"
 msgstr ""
 
+#. [multiplayer_side]: id=EFM_Freemen, type=EFM_Amir
+#: Era_of_Four_Moons/factions/Freemen-EFM.cfg:5
+msgid "Freemen"
+msgstr ""
+
 #. [multiplayer_side]: id=EFM_Highlanders, type=EFM_HighlanderWarrior
 #: Era_of_Four_Moons/factions/Highlanders-EFM.cfg:5
 msgid "Highlanders"
@@ -46,9 +61,19 @@ msgstr ""
 msgid "Imperialists"
 msgstr ""
 
+#. [multiplayer_side]: id=EFM_Pygmies, type=EFM_Lynx
+#: Era_of_Four_Moons/factions/Pygmies-EFM.cfg:5
+msgid "Pygmies"
+msgstr ""
+
 #. [multiplayer_side]: id=EFM_SeaStates, type=EFM_GuildOfficer
 #: Era_of_Four_Moons/factions/SeaStates-EFM.cfg:5
 msgid "Sea States"
+msgstr ""
+
+#. [multiplayer_side]: id=EFM_Whites, type=EFM_HouseCarl
+#: Era_of_Four_Moons/factions/Whites-EFM.cfg:5
+msgid "Whiteies"
 msgstr ""
 
 #. [dummy]: id=EFM_weapon_special_hex
@@ -86,21 +111,50 @@ msgstr ""
 msgid "This unit does not have a Zone of Control."
 msgstr ""
 
-#. [resistance]: id=ability_artillery
+#. [chance_to_hit]: id=counter
 #: Era_of_Four_Moons/macros/abilities.cfg:17
+#: Era_of_Four_Moons/macros/abilities.cfg:20
+msgid "counter"
+msgstr ""
+
+#. [chance_to_hit]: id=counter
 #: Era_of_Four_Moons/macros/abilities.cfg:19
+#: Era_of_Four_Moons/macros/abilities.cfg:22
+msgid ""
+"Counter:\n"
+"When used defensively, this attack always has at least a 60% chance to hit."
+msgstr ""
+
+#. [resistance]: id=ability_decay
+#: Era_of_Four_Moons/macros/abilities.cfg:32
+#: Era_of_Four_Moons/macros/abilities.cfg:35
+msgid "decay"
+msgstr ""
+
+#. [resistance]: id=ability_decay
+#: Era_of_Four_Moons/macros/abilities.cfg:34
+#: Era_of_Four_Moons/macros/abilities.cfg:37
+msgid ""
+"Decay:\n"
+"Enemies next to a unit with this ability gain -20% resistances to everything "
+"except arcane."
+msgstr ""
+
+#. [resistance]: id=ability_artillery
+#: Era_of_Four_Moons/macros/abilities.cfg:52
+#: Era_of_Four_Moons/macros/abilities.cfg:54
 msgid "artillery"
 msgstr ""
 
 #. [resistance]: id=ability_artillery
-#: Era_of_Four_Moons/macros/abilities.cfg:18
+#: Era_of_Four_Moons/macros/abilities.cfg:53
 msgid ""
 "Artillery: This unit can attack from an extreme distance limiting the "
 "effectiveness of ranged counter attack."
 msgstr ""
 
 #. [resistance]: id=ability_artillery
-#: Era_of_Four_Moons/macros/abilities.cfg:20
+#: Era_of_Four_Moons/macros/abilities.cfg:55
 msgid ""
 "Artillery: This unit can attack from an extreme distance limiting the "
 "effectiveness of ranged counter attack. Increases physical resistances while "
@@ -108,13 +162,13 @@ msgid ""
 msgstr ""
 
 #. [resistance]: id=ability_standard
-#: Era_of_Four_Moons/macros/abilities.cfg:31
-#: Era_of_Four_Moons/macros/abilities.cfg:34
+#: Era_of_Four_Moons/macros/abilities.cfg:66
+#: Era_of_Four_Moons/macros/abilities.cfg:69
 msgid "standard"
 msgstr ""
 
 #. [resistance]: id=ability_standard
-#: Era_of_Four_Moons/macros/abilities.cfg:33
+#: Era_of_Four_Moons/macros/abilities.cfg:68
 msgid ""
 "Standard:\n"
 "Allies adjacent to a unit with this ability add 20% to all resistances. This "
@@ -122,19 +176,19 @@ msgid ""
 msgstr ""
 
 #. [resistance]: id=ability_standard
-#: Era_of_Four_Moons/macros/abilities.cfg:36
+#: Era_of_Four_Moons/macros/abilities.cfg:71
 msgid ""
 "Standard:\n"
 "Allies adjacent to a unit with this ability add 20% to all resistances."
 msgstr ""
 
 #. [regenerate]: id=selfheal
-#: Era_of_Four_Moons/macros/abilities.cfg:52
+#: Era_of_Four_Moons/macros/abilities.cfg:87
 msgid "self-heal"
 msgstr ""
 
 #. [regenerate]: id=selfheal
-#: Era_of_Four_Moons/macros/abilities.cfg:54
+#: Era_of_Four_Moons/macros/abilities.cfg:89
 msgid ""
 "Self-heal:\n"
 "The unit will slow the effects of poison on itself or regenerate four "
@@ -142,12 +196,12 @@ msgid ""
 msgstr ""
 
 #. [attacks]: id=weapon_special_trample
-#: Era_of_Four_Moons/macros/abilities.cfg:63
+#: Era_of_Four_Moons/macros/abilities.cfg:98
 msgid "trample"
 msgstr ""
 
 #. [attacks]: id=weapon_special_trample
-#: Era_of_Four_Moons/macros/abilities.cfg:64
+#: Era_of_Four_Moons/macros/abilities.cfg:99
 msgid ""
 "On offense units with trample will gain two extra strikes and if they kill "
 "they will move into the hex of the unit they killed."
@@ -155,88 +209,88 @@ msgstr ""
 
 #. [unit_type]: id=EFM_Sapper, race=EFMimperialists
 #: Era_of_Four_Moons/units/Imperialists/e1_Sapper.cfg:5
-#: Era_of_Four_Moons/macros/abilities.cfg:134
-#: Era_of_Four_Moons/macros/abilities.cfg:135
+#: Era_of_Four_Moons/macros/abilities.cfg:169
+#: Era_of_Four_Moons/macros/abilities.cfg:170
 msgid "Sapper"
 msgstr ""
 
-#: Era_of_Four_Moons/macros/abilities.cfg:137
-#: Era_of_Four_Moons/macros/abilities.cfg:139
+#: Era_of_Four_Moons/macros/abilities.cfg:172
+#: Era_of_Four_Moons/macros/abilities.cfg:174
 msgid ""
 "Sapper :\n"
 "This attack automatically hits. It reduces the targets hp by a percentage "
 "equal to his current defense. The sapper dies when it uses this attack."
 msgstr ""
 
-#: Era_of_Four_Moons/macros/abilities.cfg:149
+#: Era_of_Four_Moons/macros/abilities.cfg:184
 msgid "heal+3"
 msgstr ""
 
-#: Era_of_Four_Moons/macros/abilities.cfg:151
+#: Era_of_Four_Moons/macros/abilities.cfg:186
 msgid ""
 "Heal+3:\n"
 "This unit will heal allies by 3 hp at the start of it's turn. Will slow "
 "poison."
 msgstr ""
 
-#: Era_of_Four_Moons/macros/abilities.cfg:169
-#: Era_of_Four_Moons/macros/abilities.cfg:172
+#: Era_of_Four_Moons/macros/abilities.cfg:204
+#: Era_of_Four_Moons/macros/abilities.cfg:207
 msgid "foresthome"
 msgstr ""
 
-#: Era_of_Four_Moons/macros/abilities.cfg:171
-#: Era_of_Four_Moons/macros/abilities.cfg:174
+#: Era_of_Four_Moons/macros/abilities.cfg:206
+#: Era_of_Four_Moons/macros/abilities.cfg:209
 msgid ""
 "Foresthome:\n"
 "This unit will regenerate 3 hp when in forest."
 msgstr ""
 
-#: Era_of_Four_Moons/macros/abilities.cfg:188
-#: Era_of_Four_Moons/macros/abilities.cfg:191
+#: Era_of_Four_Moons/macros/abilities.cfg:223
+#: Era_of_Four_Moons/macros/abilities.cfg:226
 msgid "waterhome"
 msgstr ""
 
-#: Era_of_Four_Moons/macros/abilities.cfg:190
-#: Era_of_Four_Moons/macros/abilities.cfg:193
+#: Era_of_Four_Moons/macros/abilities.cfg:225
+#: Era_of_Four_Moons/macros/abilities.cfg:228
 msgid ""
 "Waterhome:\n"
 "This unit will regenerate 3 hp when in deep or shallow water."
 msgstr ""
 
-#: Era_of_Four_Moons/macros/abilities.cfg:207
-#: Era_of_Four_Moons/macros/abilities.cfg:210
+#: Era_of_Four_Moons/macros/abilities.cfg:242
+#: Era_of_Four_Moons/macros/abilities.cfg:245
 msgid "deserthome"
 msgstr ""
 
-#: Era_of_Four_Moons/macros/abilities.cfg:209
-#: Era_of_Four_Moons/macros/abilities.cfg:212
+#: Era_of_Four_Moons/macros/abilities.cfg:244
+#: Era_of_Four_Moons/macros/abilities.cfg:247
 msgid ""
 "Deserthome:\n"
 "This unit will regenerate 3 hp when in desert or sand."
 msgstr ""
 
-#: Era_of_Four_Moons/macros/abilities.cfg:226
-#: Era_of_Four_Moons/macros/abilities.cfg:229
+#: Era_of_Four_Moons/macros/abilities.cfg:261
+#: Era_of_Four_Moons/macros/abilities.cfg:264
 msgid "mountainhome"
 msgstr ""
 
-#: Era_of_Four_Moons/macros/abilities.cfg:228
+#: Era_of_Four_Moons/macros/abilities.cfg:263
 msgid ""
 "Mountainhome:\n"
 "This unit will regenerate 3 hp when on mountains."
 msgstr ""
 
-#: Era_of_Four_Moons/macros/abilities.cfg:231
+#: Era_of_Four_Moons/macros/abilities.cfg:266
 msgid ""
 "Mountainhome:\n"
 "This unit will regenerate 3 hp when in mountains."
 msgstr ""
 
-#: Era_of_Four_Moons/macros/abilities.cfg:241
+#: Era_of_Four_Moons/macros/abilities.cfg:276
 msgid "inspire"
 msgstr ""
 
-#: Era_of_Four_Moons/macros/abilities.cfg:245
+#: Era_of_Four_Moons/macros/abilities.cfg:280
 msgid ""
 "Inspire:\n"
 "This unit can inspire friendly units that are next to it, making them fight "
@@ -249,14 +303,14 @@ msgstr ""
 #. [dummy]: id=ability_shifter
 #: Era_of_Four_Moons/macros/shifter.cfg:6
 #: Era_of_Four_Moons/macros/shifter.cfg:7
-#: Era_of_Four_Moons/macros/abilities.cfg:362
-#: Era_of_Four_Moons/macros/abilities.cfg:363
+#: Era_of_Four_Moons/macros/abilities.cfg:397
+#: Era_of_Four_Moons/macros/abilities.cfg:398
 msgid "shifter"
 msgstr ""
 
 #. [dummy]: id=ability_shifter
 #: Era_of_Four_Moons/macros/shifter.cfg:14
-#: Era_of_Four_Moons/macros/abilities.cfg:370
+#: Era_of_Four_Moons/macros/abilities.cfg:405
 msgid ""
 "This unit changes form based on what terrain he is standing on.\n"
 "Villages/Castles: Human\n"
@@ -267,12 +321,12 @@ msgid ""
 "Forest/Cave: Bear"
 msgstr ""
 
-#. [unit_type]: id=EFM_Miner, race=human
+#. [unit_type]: id=EFM_Miner, race=EFMdalefolk
 #: Era_of_Four_Moons/units/Dalefolk/a1_Miner.cfg:5
 msgid "Miner"
 msgstr ""
 
-#. [unit_type]: id=EFM_Miner, race=human
+#. [unit_type]: id=EFM_Miner, race=EFMdalefolk
 #: Era_of_Four_Moons/units/Dalefolk/a1_Miner.cfg:18
 msgid ""
 "The dalefolk live in the creases between mountains and have always had a "
@@ -287,24 +341,24 @@ msgstr ""
 msgid "pick"
 msgstr ""
 
-#. [unit_type]: id=EFM_Foreman, race=human
+#. [unit_type]: id=EFM_Foreman, race=EFMdalefolk
 #: Era_of_Four_Moons/units/Dalefolk/a2_Foreman.cfg:5
 msgid "Foreman"
 msgstr ""
 
-#. [unit_type]: id=EFM_Foreman, race=human
+#. [unit_type]: id=EFM_Foreman, race=EFMdalefolk
 #: Era_of_Four_Moons/units/Dalefolk/a2_Foreman.cfg:19
 msgid ""
 "The foremen who lead the miners in digging their mines also tend to lead "
 "them in combat."
 msgstr ""
 
-#. [unit_type]: id=EFM_Mountaineer, race=human
+#. [unit_type]: id=EFM_Mountaineer, race=EFMdalefolk
 #: Era_of_Four_Moons/units/Dalefolk/b1_Mountaineer.cfg:5
 msgid "Mountaineer"
 msgstr ""
 
-#. [unit_type]: id=EFM_Mountaineer, race=human
+#. [unit_type]: id=EFM_Mountaineer, race=EFMdalefolk
 #: Era_of_Four_Moons/units/Dalefolk/b1_Mountaineer.cfg:18
 msgid ""
 "One of the major industries and traits of the dalesfolk is their goat "
@@ -326,12 +380,12 @@ msgstr ""
 msgid "sling"
 msgstr ""
 
-#. [unit_type]: id=EFM_MountainMan, race=human
+#. [unit_type]: id=EFM_MountainMan, race=EFMdalefolk
 #: Era_of_Four_Moons/units/Dalefolk/b2_MountainMan.cfg:5
 msgid "Mountain Man"
 msgstr ""
 
-#. [unit_type]: id=EFM_MountainMan, race=human
+#. [unit_type]: id=EFM_MountainMan, race=EFMdalefolk
 #: Era_of_Four_Moons/units/Dalefolk/b2_MountainMan.cfg:19
 msgid ""
 "Occasionally after a former mountaineer has grown old enough to be relieved "
@@ -357,6 +411,9 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=impact
+#: Era_of_Four_Moons/units/Pygmies/a0_Knat.cfg:29
+#: Era_of_Four_Moons/units/Pygmies/a1_Fly.cfg:29
+#: Era_of_Four_Moons/units/Pygmies/a2_Stinger.cfg:30
 #: Era_of_Four_Moons/units/Dalefolk/c1_Shifter.cfg:37
 msgid "fist"
 msgstr ""
@@ -413,6 +470,8 @@ msgid "The wolf form is a swift and cunning hunter."
 msgstr ""
 
 #. [attack]: type=blade
+#: Era_of_Four_Moons/units/Pygmies/e1_Crocodile.cfg:25
+#: Era_of_Four_Moons/units/Pygmies/e2_GrandCrocodile.cfg:26
 #: Era_of_Four_Moons/units/Dalefolk/c1_Shifter.cfg:229
 msgid "teeth"
 msgstr ""
@@ -430,12 +489,12 @@ msgstr ""
 msgid "Shifter(Bear)"
 msgstr ""
 
-#. [unit_type]: id=EFM_Channeler, race=human
+#. [unit_type]: id=EFM_Channeler, race=EFMdalefolk
 #: Era_of_Four_Moons/units/Dalefolk/d1_Channeler.cfg:5
 msgid "Channeler"
 msgstr ""
 
-#. [unit_type]: id=EFM_Channeler, race=human
+#. [unit_type]: id=EFM_Channeler, race=EFMdalefolk
 #: Era_of_Four_Moons/units/Dalefolk/d1_Channeler.cfg:18
 msgid ""
 "Among the dalesfolk are those who study the theory of magic. Through careful "
@@ -457,12 +516,12 @@ msgstr ""
 msgid "touch"
 msgstr ""
 
-#. [unit_type]: id=EFM_Mediator, race=human
+#. [unit_type]: id=EFM_Mediator, race=EFMdalefolk
 #: Era_of_Four_Moons/units/Dalefolk/d2_Mediator.cfg:5
 msgid "Mediator"
 msgstr ""
 
-#. [unit_type]: id=EFM_Mediator, race=human
+#. [unit_type]: id=EFM_Mediator, race=EFMdalefolk
 #: Era_of_Four_Moons/units/Dalefolk/d2_Mediator.cfg:18
 msgid ""
 "Given time and practice a channeler can also draw heat from the ground and "
@@ -470,24 +529,24 @@ msgid ""
 "different reasons."
 msgstr ""
 
-#. [unit_type]: id=EFM_Conduit, race=human
+#. [unit_type]: id=EFM_Conduit, race=EFMdalefolk
 #: Era_of_Four_Moons/units/Dalefolk/d3_Conduit.cfg:5
 msgid "Conduit"
 msgstr ""
 
-#. [unit_type]: id=EFM_Conduit, race=human
+#. [unit_type]: id=EFM_Conduit, race=EFMdalefolk
 #: Era_of_Four_Moons/units/Dalefolk/d3_Conduit.cfg:19
 msgid ""
 "A daleman who becomes truly skilled at the magic arts becomes a conduit in "
 "complete control of the flow of energy around him."
 msgstr ""
 
-#. [unit_type]: id=EFM_Rocketeer, race=human
+#. [unit_type]: id=EFM_Rocketeer, race=EFMdalefolk
 #: Era_of_Four_Moons/units/Dalefolk/e1_Rocketeer.cfg:5
 msgid "Rocketeer"
 msgstr ""
 
-#. [unit_type]: id=EFM_Rocketeer, race=human
+#. [unit_type]: id=EFM_Rocketeer, race=EFMdalefolk
 #: Era_of_Four_Moons/units/Dalefolk/e1_Rocketeer.cfg:18
 msgid ""
 "Other nations hold the rockets the dalesfolk are so fond of in a mixture of "
@@ -504,11 +563,26 @@ msgstr ""
 #: Era_of_Four_Moons/units/Highlanders/e3_SpirtWielder.cfg:39
 #: Era_of_Four_Moons/units/Highlanders/e2_Shaman.cfg:38
 #: Era_of_Four_Moons/units/Highlanders/e1_WitchDoctor.cfg:38
+#: Era_of_Four_Moons/units/Pygmies/b2_Charmer.cfg:30
+#: Era_of_Four_Moons/units/Pygmies/f3_DeepWitch.cfg:31
+#: Era_of_Four_Moons/units/Pygmies/f1_SwampWitch.cfg:30
+#: Era_of_Four_Moons/units/Pygmies/c1_Puma.cfg:30
+#: Era_of_Four_Moons/units/Pygmies/f2_JungleWitch.cfg:30
+#: Era_of_Four_Moons/units/Pygmies/c2_Lynx.cfg:30
+#: Era_of_Four_Moons/units/Pygmies/b1_Piper.cfg:29
 #: Era_of_Four_Moons/units/Dalefolk/e3_Battery.cfg:26
 #: Era_of_Four_Moons/units/Dalefolk/e1_Rocketeer.cfg:25
 #: Era_of_Four_Moons/units/Dalefolk/g1_Herbalist.cfg:29
 #: Era_of_Four_Moons/units/Dalefolk/e2_Bombadier.cfg:25
 #: Era_of_Four_Moons/units/Dalefolk/g2_Botanist.cfg:30
+#: Era_of_Four_Moons/units/Whites/b1_Keeper.cfg:26
+#: Era_of_Four_Moons/units/Whites/b0_BowGirl.cfg:26
+#: Era_of_Four_Moons/units/Whites/b4_StormQueen.cfg:27
+#: Era_of_Four_Moons/units/Whites/b3_BowLady.cfg:27
+#: Era_of_Four_Moons/units/Whites/b1_Stormchild.cfg:26
+#: Era_of_Four_Moons/units/Whites/b2_Huntress.cfg:26
+#: Era_of_Four_Moons/units/Whites/b3_StormLady.cfg:26
+#: Era_of_Four_Moons/units/Whites/b2_Stormwitch.cfg:26
 #: Era_of_Four_Moons/units/SeaStates/e2_Concoctionist.cfg:26
 #: Era_of_Four_Moons/units/SeaStates/e2_Doctor.cfg:29
 #: Era_of_Four_Moons/units/SeaStates/e1_Alchemist.cfg:25
@@ -525,12 +599,12 @@ msgstr ""
 msgid "rocket"
 msgstr ""
 
-#. [unit_type]: id=EFM_Bombadier, race=human
+#. [unit_type]: id=EFM_Bombadier, race=EFMdalefolk
 #: Era_of_Four_Moons/units/Dalefolk/e2_Bombadier.cfg:5
 msgid "Bombadier"
 msgstr ""
 
-#. [unit_type]: id=EFM_Bombadier, race=human
+#. [unit_type]: id=EFM_Bombadier, race=EFMdalefolk
 #: Era_of_Four_Moons/units/Dalefolk/e2_Bombadier.cfg:18
 msgid ""
 "Aiming rockets is a knack few people have. After quite some practice a "
@@ -539,24 +613,24 @@ msgid ""
 "at best."
 msgstr ""
 
-#. [unit_type]: id=EFM_Battery, race=human
+#. [unit_type]: id=EFM_Battery, race=EFMdalefolk
 #: Era_of_Four_Moons/units/Dalefolk/e3_Battery.cfg:5
 msgid "Battery"
 msgstr ""
 
-#. [unit_type]: id=EFM_Battery, race=human
+#. [unit_type]: id=EFM_Battery, race=EFMdalefolk
 #: Era_of_Four_Moons/units/Dalefolk/e3_Battery.cfg:19
 msgid ""
 "A master rocketeer can both aim and reload his launcher quickly. This makes "
 "him a quite fearsome force."
 msgstr ""
 
-#. [unit_type]: id=EFM_Raven, race=bat
+#. [unit_type]: id=EFM_Raven, race=monster
 #: Era_of_Four_Moons/units/Dalefolk/f0_Raven.cfg:5
 msgid "Raven"
 msgstr ""
 
-#. [unit_type]: id=EFM_Raven, race=bat
+#. [unit_type]: id=EFM_Raven, race=monster
 #: Era_of_Four_Moons/units/Dalefolk/f0_Raven.cfg:18
 msgid ""
 "When the dalesfolk discovered that ravens were unusually intelligent they "
@@ -567,12 +641,12 @@ msgid ""
 "highlanders have used them as spies and scouts."
 msgstr ""
 
-#. [unit_type]: id=EFM_Mynah, race=bat
+#. [unit_type]: id=EFM_Mynah, race=monster
 #: Era_of_Four_Moons/units/Dalefolk/f1_Mynah.cfg:5
 msgid "Mynah"
 msgstr ""
 
-#. [unit_type]: id=EFM_Mynah, race=bat
+#. [unit_type]: id=EFM_Mynah, race=monster
 #: Era_of_Four_Moons/units/Dalefolk/f1_Mynah.cfg:19
 msgid ""
 "Mynah birds are even larger and more intelligent than ravens. As a result "
@@ -580,12 +654,12 @@ msgid ""
 "mage to decipher them."
 msgstr ""
 
-#. [unit_type]: id=EFM_Herbalist, race=human
+#. [unit_type]: id=EFM_Herbalist, race=EFMdalefolk
 #: Era_of_Four_Moons/units/Dalefolk/g1_Herbalist.cfg:5
 msgid "Herbalist"
 msgstr ""
 
-#. [unit_type]: id=EFM_Herbalist, race=human
+#. [unit_type]: id=EFM_Herbalist, race=EFMdalefolk
 #: Era_of_Four_Moons/units/Dalefolk/g1_Herbalist.cfg:18
 msgid ""
 "Many strange and interesting plants grow on the side of the mountains. "
@@ -598,12 +672,12 @@ msgstr ""
 msgid "carkroot fumes"
 msgstr ""
 
-#. [unit_type]: id=EFM_Botanist, race=human
+#. [unit_type]: id=EFM_Botanist, race=EFMdalefolk
 #: Era_of_Four_Moons/units/Dalefolk/g2_Botanist.cfg:5
 msgid "Botanist"
 msgstr ""
 
-#. [unit_type]: id=EFM_Botanist, race=human
+#. [unit_type]: id=EFM_Botanist, race=EFMdalefolk
 #: Era_of_Four_Moons/units/Dalefolk/g2_Botanist.cfg:19
 msgid "As herbalists practice their art they become better at it."
 msgstr ""
@@ -719,6 +793,11 @@ msgstr ""
 #: Era_of_Four_Moons/units/Highlanders/c2_LionRenegade.cfg:39
 #: Era_of_Four_Moons/units/Highlanders/d1_Runner.cfg:32
 #: Era_of_Four_Moons/units/Highlanders/d2_Strider.cfg:32
+#: Era_of_Four_Moons/units/Whites/c1_Storm_Guard.cfg:38
+#: Era_of_Four_Moons/units/Whites/c2_Heart_Guard.cfg:37
+#: Era_of_Four_Moons/units/Whites/c2_Heart_Guard.cfg:49
+#: Era_of_Four_Moons/units/Whites/c3_Soul_Guard.cfg:38
+#: Era_of_Four_Moons/units/Whites/c3_Soul_Guard.cfg:50
 #: Era_of_Four_Moons/units/Imperialists/c2_Velite.cfg:36
 #: Era_of_Four_Moons/units/Imperialists/f3_Avalanche.cfg:35
 #: Era_of_Four_Moons/units/Imperialists/c1_Pelite.cfg:33
@@ -727,6 +806,8 @@ msgstr ""
 #: Era_of_Four_Moons/units/Darklanders/b2_Stalker.cfg:30
 #: Era_of_Four_Moons/units/Darklanders/b3_Whisper.cfg:35
 #: Era_of_Four_Moons/units/Darklanders/b2_Wasp.cfg:31
+#: Era_of_Four_Moons/units/Freemen/b1_Sandwalker.cfg:26
+#: Era_of_Four_Moons/units/Freemen/b2_Ensnarer.cfg:27
 msgid "spear"
 msgstr ""
 
@@ -951,6 +1032,338 @@ msgid ""
 "recklessly."
 msgstr ""
 
+#. [unit_type]: id=EFM_Aristocrat, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/a1_Aristocrat.cfg:5
+msgid "Aristocrat"
+msgstr ""
+
+#. [unit_type]: id=EFM_Aristocrat, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/a1_Aristocrat.cfg:18
+msgid ""
+"War is considered to be the foremost of aristocratic games and any born to "
+"wealth who are not willing to participate are generally considered to not be "
+"worthy of it. It is however, not the only game frequently played by the "
+"aristocracy. Intrigue, blackmail, and assassination are all arts that get "
+"far too much show even in times of peace."
+msgstr ""
+
+#. [attack]: type=blade
+#: Era_of_Four_Moons/units/Freemen/a1_Aristocrat.cfg:25
+#: Era_of_Four_Moons/units/Freemen/c3_Adventurer.cfg:36
+#: Era_of_Four_Moons/units/Freemen/c2_SandRider.cfg:36
+#: Era_of_Four_Moons/units/Freemen/c1_CamelRider.cfg:26
+#: Era_of_Four_Moons/units/Freemen/a2_Vizier.cfg:29
+#: Era_of_Four_Moons/units/Freemen/a3_Sultan.cfg:30
+#: Era_of_Four_Moons/units/Freemen/c2_Mehariste.cfg:26
+#: Era_of_Four_Moons/units/Freemen/e1_Wanderer.cfg:32
+#: Era_of_Four_Moons/units/Freemen/e2_Nomad.cfg:33
+#: Era_of_Four_Moons/units/Freemen/b3_Immortal.cfg:30
+#: Era_of_Four_Moons/units/Freemen/c3_Zunbooruch.cfg:27
+#: Era_of_Four_Moons/units/Freemen/b2_Dervish.cfg:29
+#: Era_of_Four_Moons/units/Freemen/a2_Amir.cfg:25
+#: Era_of_Four_Moons/units/Freemen/a3_Caliph.cfg:26
+msgid "scimitar"
+msgstr ""
+
+#. [attack]: type=pierce
+#: Era_of_Four_Moons/units/Freemen/a1_Aristocrat.cfg:34
+#: Era_of_Four_Moons/units/Freemen/a2_Vizier.cfg:38
+#: Era_of_Four_Moons/units/Freemen/a3_Sultan.cfg:39
+#: Era_of_Four_Moons/units/Freemen/a2_Amir.cfg:34
+#: Era_of_Four_Moons/units/Freemen/a3_Caliph.cfg:35
+msgid "stiletto"
+msgstr ""
+
+#. [unit_type]: id=EFM_Amir, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/a2_Amir.cfg:5
+msgid "Amir"
+msgstr ""
+
+#. [unit_type]: id=EFM_Amir, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/a2_Amir.cfg:18
+msgid ""
+"The title Amir frequently denotes a great deal of personal prowess and "
+"bravery but it can just as oft represent a talent for scheming or use of "
+"'underhanded' methods. Most frequently though, a mix of both."
+msgstr ""
+
+#. [unit_type]: id=EFM_Vizier, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/a2_Vizier.cfg:5
+msgid "Vizier"
+msgstr ""
+
+#. [unit_type]: id=EFM_Vizier, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/a2_Vizier.cfg:18
+msgid ""
+"Although the Amir tend to be the officers of the armies they are rarely the "
+"planners, tacticians, or strategists. The people who fill these roles tend "
+"to prefer background positions as 'advisors'."
+msgstr ""
+
+#. [unit_type]: id=EFM_Caliph, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/a3_Caliph.cfg:5
+msgid "Caliph"
+msgstr ""
+
+#. [unit_type]: id=EFM_Caliph, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/a3_Caliph.cfg:19
+msgid ""
+"Caliph is one of the two terms commonly given to the ruler of an entire "
+"city. It is a generally more militant term such as might be used for the "
+"cities conqueror or one who rules by virtue of force."
+msgstr ""
+
+#. [unit_type]: id=EFM_Sultan, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/a3_Sultan.cfg:5
+msgid "Sultan"
+msgstr ""
+
+#. [unit_type]: id=EFM_Sultan, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/a3_Sultan.cfg:19
+msgid ""
+"Sultan is one of the two terms commonly used for the ruler of an entire "
+"city. It is generally considered to be less militant, to be used for a ruler "
+"who inherited or achieved power through other peaceful means. It is worth "
+"noting however, that although the means of inheriting are called 'peaceful' "
+"they frequently come at the cost of the 'untimely demise' of many other "
+"potential inheritors. It is also worth noting, that the mind that can scheme "
+"its way into control of a city is frequently good at military tactics as "
+"well."
+msgstr ""
+
+#. [unit_type]: id=EFM_SandWalker, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/b1_Sandwalker.cfg:5
+msgid "Sand walker"
+msgstr ""
+
+#. [unit_type]: id=EFM_SandWalker, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/b1_Sandwalker.cfg:18
+msgid ""
+"The streets of most cities are rough places and most men who live there grow "
+"up to be tough and light on their feet. It is quite common for masses of "
+"such people to pressed or bribed into armies in times of war. Most desert "
+"militiamen carry a couple chakram on them as it is a common hunting tool in "
+"those lands."
+msgstr ""
+
+#. [attack]: type=blade
+#: Era_of_Four_Moons/units/Freemen/e1_Wanderer.cfg:41
+#: Era_of_Four_Moons/units/Freemen/e2_Nomad.cfg:42
+#: Era_of_Four_Moons/units/Freemen/b3_Immortal.cfg:39
+#: Era_of_Four_Moons/units/Freemen/b1_Sandwalker.cfg:35
+#: Era_of_Four_Moons/units/Freemen/b2_Dervish.cfg:38
+msgid "chakram"
+msgstr ""
+
+#. [unit_type]: id=EFM_Dervish, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/b2_Dervish.cfg:5
+msgid "Dervish"
+msgstr ""
+
+#. [unit_type]: id=EFM_Dervish, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/b2_Dervish.cfg:18
+msgid ""
+"The dervishes are an order of freemen who undertake to guard and support the "
+"mullah (religious scholars) in their efforts. It is not a role that pays "
+"well if at all but there are still plenty of them about."
+msgstr ""
+
+#. [unit_type]: id=EFM_Ensnarer, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/b2_Ensnarer.cfg:5
+msgid "Ensnarer"
+msgstr ""
+
+#. [unit_type]: id=EFM_Ensnarer, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/b2_Ensnarer.cfg:19
+msgid ""
+"Bolas are another popular hunting tool of the freemen to be used on larger "
+"prey."
+msgstr ""
+
+#. [attack]: type=impact
+#: Era_of_Four_Moons/units/Freemen/b2_Ensnarer.cfg:36
+msgid "bolas"
+msgstr ""
+
+#. [unit_type]: id=EFM_Immortal, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/b3_Immortal.cfg:5
+msgid "Immortal"
+msgstr ""
+
+#. [unit_type]: id=EFM_Immortal, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/b3_Immortal.cfg:19
+msgid ""
+"The immortals are so named after how hard it is to kill them and how "
+"intertwined they are to the religion they serve. They form the elite guard "
+"of the important priests and other holy men."
+msgstr ""
+
+#. [unit_type]: id=EFM_CamelRider, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/c1_CamelRider.cfg:5
+msgid "Camel Rider"
+msgstr ""
+
+#. [unit_type]: id=EFM_CamelRider, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/c1_CamelRider.cfg:18
+msgid ""
+"Despite their ungainly look, camels are actually quite swift mounts and can "
+"easily match pace with horses. This and the fact that they need little water "
+"make them the preferred mount and pack animal for the freemen."
+msgstr ""
+
+#. [unit_type]: id=EFM_Mehariste, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/c2_Mehariste.cfg:5
+msgid "Mehariste"
+msgstr ""
+
+#. [unit_type]: id=EFM_Mehariste, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/c2_Mehariste.cfg:18
+msgid ""
+"Mehariste means camel cavalry which is about all that needs be said about "
+"them."
+msgstr ""
+
+#. [unit_type]: id=EFM_SandRider, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/c2_SandRider.cfg:5
+msgid "Sand Rider"
+msgstr ""
+
+#. [unit_type]: id=EFM_SandRider, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/c2_SandRider.cfg:18
+msgid ""
+"Most people who travel the desert would choose the camel as their mount for "
+"they are swift and do not need much water. But there is a rare breed of men "
+"who prefer the rare breed of horse that lives in the desert. The "
+"horsemanship of these few is the stuff of great praise and the horses are "
+"renowned for their strength."
+msgstr ""
+
+#. [unit_type]: id=EFM_Adventurer, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/c3_Adventurer.cfg:5
+msgid "Adventurer"
+msgstr ""
+
+#. [unit_type]: id=EFM_Adventurer, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/c3_Adventurer.cfg:19
+msgid ""
+"Stories are told of a proud few who ride through the desert on great black "
+"horses seeking adventure. Tales of their incredible horsemanship and prowess "
+"in battle and the many strange things they find amuse and amaze foreigners "
+"who hear them. Most foreigners doubt the validity of these tales but the "
+"freemen know them to be true."
+msgstr ""
+
+#. [unit_type]: id=EFM_Zunbooruch, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/c3_Zunbooruch.cfg:5
+msgid "Zunbooruch"
+msgstr ""
+
+#. [unit_type]: id=EFM_Zunbooruch, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/c3_Zunbooruch.cfg:19
+msgid ""
+"Zunbooruch was a mehariste officer who famously sniped the enemies sultan "
+"from his camel mount at a range of a hundred yards with a crossbow after "
+"calling the shot. Since then whenever a successful mehariste has saved up "
+"enough for a crossbow (very expensive purchase in the freelands) people will "
+"call them after said officer."
+msgstr ""
+
+#. [attack]: type=pierce
+#: Era_of_Four_Moons/units/Imperialists/d4_Legatus.cfg:49
+#: Era_of_Four_Moons/units/Imperialists/d2_Centurion.cfg:48
+#: Era_of_Four_Moons/units/Imperialists/d3_Primus.cfg:48
+#: Era_of_Four_Moons/units/Imperialists/d1_Standard.cfg:38
+#: Era_of_Four_Moons/units/Freemen/c3_Zunbooruch.cfg:36
+msgid "crossbow"
+msgstr ""
+
+#. [unit_type]: id=EFM_Muezzin, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/d1_Muezzin.cfg:5
+msgid "Muezzin"
+msgstr ""
+
+#. [unit_type]: id=EFM_Muezzin, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/d1_Muezzin.cfg:18
+msgid ""
+"Although the term generally refers simply to the person who gives the call "
+"to prayer it can also refer to low ranking members in the militant clergy "
+"though the 'prayer' they call people to can hardly be called reverent. As "
+"potential mullah they are generally held to be quite valuable and thus are "
+"frequently gifted with expensive armor from southern lands however as "
+"members of their caste you can fully expect to see them putting their life "
+"at risk anyway. They also serve a second calling as healers."
+msgstr ""
+
+#. [attack]: type=impact
+#: Era_of_Four_Moons/units/Imperialists/a2_ShockTroop.cfg:34
+#: Era_of_Four_Moons/units/Imperialists/f1_Hardback.cfg:34
+#: Era_of_Four_Moons/units/Imperialists/f2_RockRider.cfg:34
+#: Era_of_Four_Moons/units/Imperialists/a3_Gargantaur.cfg:35
+#: Era_of_Four_Moons/units/Imperialists/f3_Tank.cfg:35
+#: Era_of_Four_Moons/units/Freemen/d2_Mufti.cfg:38
+#: Era_of_Four_Moons/units/Freemen/d3_Mullah.cfg:40
+#: Era_of_Four_Moons/units/Freemen/d1_Muezzin.cfg:38
+msgid "mace"
+msgstr ""
+
+#. [unit_type]: id=EFM_Mufti, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/d2_Mufti.cfg:5
+msgid "Mufti"
+msgstr ""
+
+#. [unit_type]: id=EFM_Mufti, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/d2_Mufti.cfg:18
+msgid ""
+"Not quite a full mullah yet but well versed in their doctrine and likely a "
+"veteran of battle as well, a mufti is a respected man in freeman society."
+msgstr ""
+
+#. [unit_type]: id=EFM_Mullah, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/d3_Mullah.cfg:5
+msgid "Mullah"
+msgstr ""
+
+#. [unit_type]: id=EFM_Mullah, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/d3_Mullah.cfg:19
+msgid ""
+"Mullah are the primary teachers and scholars of the freelands as well as its "
+"priests. They are men of great power and influence and many of them are "
+"warriors or magicians as well. They are easily identified by the halo that "
+"they somehow create that illuminates the area about them."
+msgstr ""
+
+#. [unit_type]: id=EFM_Wanderer, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/e1_Wanderer.cfg:5
+msgid "Wanderer"
+msgstr ""
+
+#. [unit_type]: id=EFM_Wanderer, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/e1_Wanderer.cfg:18
+msgid ""
+"Those that wander the desert are rarely unprepared to scuffle for their "
+"lives if need be. Chakaram are one of their preferred weapons for they are "
+"are more reusable than arrows but can still be used to hunt game at a "
+"distance. As a result of years of life-style enforced practice most of them "
+"are a deft hand with it. Although they do not live in forests, mountains, or "
+"other such diverse terrains, they have become quite adept at moving through "
+"them swiftly."
+msgstr ""
+
+#. [unit_type]: id=EFM_Nomad, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/e2_Nomad.cfg:5
+msgid "Nomad"
+msgstr ""
+
+#. [unit_type]: id=EFM_Nomad, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/e2_Nomad.cfg:19
+msgid ""
+"A foreigner once asked an Amir about the nomads and this was the mans reply, "
+"'those who travel hard lands all their days are likely to become hard men. "
+"Those who wander wild lands all their days are likely to become wild. You "
+"call us 'free men' because when first your people met with us you met these "
+"among us. It is they who are strong enough to truly be free.'"
+msgstr ""
+
 #. [unit_type]: id=EFM_Brave, race=EFMhighlanders
 #: Era_of_Four_Moons/units/Highlanders/a1_Brave.cfg:5
 msgid "Brave"
@@ -972,7 +1385,9 @@ msgid "war club"
 msgstr ""
 
 #. [unit_type]: id=EFM_HighlanderWarrior, race=EFMhighlanders
+#. [unit_type]: id=EFM_WhiteWarrior, race=EFMwhite
 #: Era_of_Four_Moons/units/Highlanders/a2_Warrior.cfg:5
+#: Era_of_Four_Moons/units/Whites/a1_Warrior.cfg:5
 msgid "Warrior"
 msgstr ""
 
@@ -1015,6 +1430,12 @@ msgstr ""
 #: Era_of_Four_Moons/units/Highlanders/b3_ManHunter.cfg:42
 #: Era_of_Four_Moons/units/Highlanders/f1_Elephant.cfg:49
 #: Era_of_Four_Moons/units/Highlanders/g1_Hippo.cfg:42
+#: Era_of_Four_Moons/units/Whites/b1_Keeper.cfg:35
+#: Era_of_Four_Moons/units/Whites/b0_BowGirl.cfg:35
+#: Era_of_Four_Moons/units/Whites/c1_Storm_Guard.cfg:51
+#: Era_of_Four_Moons/units/Whites/c2_Heart_Guard.cfg:62
+#: Era_of_Four_Moons/units/Whites/b2_Huntress.cfg:35
+#: Era_of_Four_Moons/units/Whites/c3_Soul_Guard.cfg:63
 msgid "bow"
 msgstr ""
 
@@ -1317,15 +1738,6 @@ msgid ""
 "attacks."
 msgstr ""
 
-#. [attack]: type=impact
-#: Era_of_Four_Moons/units/Imperialists/a2_ShockTroop.cfg:34
-#: Era_of_Four_Moons/units/Imperialists/f1_Hardback.cfg:34
-#: Era_of_Four_Moons/units/Imperialists/f2_RockRider.cfg:34
-#: Era_of_Four_Moons/units/Imperialists/a3_Gargantaur.cfg:35
-#: Era_of_Four_Moons/units/Imperialists/f3_Tank.cfg:35
-msgid "mace"
-msgstr ""
-
 #. [unit_type]: id=EFM_Stalwart, race=EFMimperialists
 #: Era_of_Four_Moons/units/Imperialists/a2_Stalwart.cfg:5
 msgid "Stalwart"
@@ -1378,6 +1790,9 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=impact
+#: Era_of_Four_Moons/units/Whites/d3_Guardian.cfg:39
+#: Era_of_Four_Moons/units/Whites/d1_Warder.cfg:38
+#: Era_of_Four_Moons/units/Whites/d2_Vigilante.cfg:38
 #: Era_of_Four_Moons/units/Imperialists/b2_Spiker.cfg:33
 #: Era_of_Four_Moons/units/Imperialists/b2_Flinger.cfg:33
 #: Era_of_Four_Moons/units/Imperialists/b1_Slinger.cfg:32
@@ -1470,14 +1885,6 @@ msgid ""
 "strength. The standards effect on moral bolsters the resistances of the "
 "units around it. The officer guarding the standard is armed with a crossbow "
 "and short sword and would die before he sees his position fall."
-msgstr ""
-
-#. [attack]: type=pierce
-#: Era_of_Four_Moons/units/Imperialists/d4_Legatus.cfg:49
-#: Era_of_Four_Moons/units/Imperialists/d2_Centurion.cfg:48
-#: Era_of_Four_Moons/units/Imperialists/d3_Primus.cfg:48
-#: Era_of_Four_Moons/units/Imperialists/d1_Standard.cfg:38
-msgid "crossbow"
 msgstr ""
 
 #. [unit_type]: id=EFM_Centurion, race=EFMimperialists
@@ -1595,6 +2002,261 @@ msgid ""
 "become one of the toughest fighting units on the planet."
 msgstr ""
 
+#. [unit_type]: id=EFM_Ballista, race=mechanical
+#: Era_of_Four_Moons/units/Imperialists/h1_Ballista.cfg:5
+msgid "Ballista"
+msgstr ""
+
+#. [unit_type]: id=EFM_Ballista, race=mechanical
+#: Era_of_Four_Moons/units/Imperialists/h1_Ballista.cfg:18
+msgid ""
+"The Imperialists imperialist tendencies have led them to lay siege to many a "
+"walled city and stronghold over the years. Occasionally when sappers are "
+"deemed sub-optimal and there is no rush they will camp outside the walls and "
+"use shaft or rock hurling siege weapons to weaken their foes resolve."
+msgstr ""
+
+#. [attack]: type=pierce
+#: Era_of_Four_Moons/units/Imperialists/h2_Bolter.cfg:26
+#: Era_of_Four_Moons/units/Imperialists/h2_Bolter.cfg:35
+#: Era_of_Four_Moons/units/Imperialists/h1_Ballista.cfg:25
+#: Era_of_Four_Moons/units/Imperialists/h1_Ballista.cfg:34
+msgid "ballista"
+msgstr ""
+
+#. [unit_type]: id=EFM_Bolter, race=mechanical
+#: Era_of_Four_Moons/units/Imperialists/h2_Bolter.cfg:5
+msgid "Bolter"
+msgstr ""
+
+#. [unit_type]: id=EFM_Bolter, race=mechanical
+#: Era_of_Four_Moons/units/Imperialists/h2_Bolter.cfg:19
+msgid ""
+"Bolters are a slightly improved form of the ballista. They are considerably "
+"more difficult to construct as there are a couple stages in the construction "
+"where the entire project will unravel if even a slight mistake was made "
+"earlier. As a result they see less use but when they do appear enemy "
+"commanders would be well advised to take precautions for them."
+msgstr ""
+
+#. [unit_type]: id=EFM_Knat, race=EFMpygmy
+#: Era_of_Four_Moons/units/Pygmies/a0_Knat.cfg:5
+msgid "Knat"
+msgstr ""
+
+#. [unit_type]: id=EFM_Knat, race=EFMpygmy
+#: Era_of_Four_Moons/units/Pygmies/a0_Knat.cfg:18
+msgid ""
+"Knat isn't what they call themselves infact as near as anybody can tell they "
+"don't call themselves anything. They seem to assume that rounding up "
+"everyone you can find and giving them blow guns is a natural state of things "
+"during war. They are called knats by their enemies because they seem to come "
+"in endless numbers and although easy to swat are incredibly annoying to "
+"fight."
+msgstr ""
+
+#. [attack]: type=pierce
+#: Era_of_Four_Moons/units/Pygmies/a0_Knat.cfg:38
+#: Era_of_Four_Moons/units/Pygmies/a1_Fly.cfg:38
+#: Era_of_Four_Moons/units/Pygmies/a2_Stinger.cfg:39
+msgid "blow darts"
+msgstr ""
+
+#. [unit_type]: id=EFM_Fly, race=EFMpygmy
+#: Era_of_Four_Moons/units/Pygmies/a1_Fly.cfg:5
+msgid "Fly"
+msgstr ""
+
+#. [unit_type]: id=EFM_Fly, race=EFMpygmy
+#: Era_of_Four_Moons/units/Pygmies/a1_Fly.cfg:18
+msgid ""
+"During one invasion a sea state officer noted that some of the crazy little "
+"people with blow guns were harder to kill than the rest. He decided to call "
+"these groups 'flies' and the name has stuck for any of the more experienced "
+"pygmy units."
+msgstr ""
+
+#. [unit_type]: id=EFM_Stinger, race=EFMpygmy
+#: Era_of_Four_Moons/units/Pygmies/a2_Stinger.cfg:5
+msgid "Stinger"
+msgstr ""
+
+#. [unit_type]: id=EFM_Stinger, race=EFMpygmy
+#: Era_of_Four_Moons/units/Pygmies/a2_Stinger.cfg:19
+msgid ""
+"Knats poison their darts to bring down their targets however they tend to "
+"choose weak and commonly available poisons. The more experienced units who "
+"are better at scrounging up nasty long lasting poisons are fearsome foes."
+msgstr ""
+
+#. [unit_type]: id=EFM_Piper, race=EFMpygmy
+#: Era_of_Four_Moons/units/Pygmies/b1_Piper.cfg:5
+msgid "Piper"
+msgstr ""
+
+#. [unit_type]: id=EFM_Piper, race=EFMpygmy
+#: Era_of_Four_Moons/units/Pygmies/b1_Piper.cfg:18
+msgid ""
+"The instruments of the pygmy carry strange enchantments which can be quite "
+"harmful if the musician is trained. One of these is the ability to summon "
+"and to a certain extent control creatures. Insects are one of the most "
+"common choices for they are simple to control and difficult to combat. No "
+"type of armor and no type of defense known is effective at reducing this "
+"attack."
+msgstr ""
+
+#. [attack]: type=insects
+#: Era_of_Four_Moons/units/Pygmies/b2_Charmer.cfg:39
+#: Era_of_Four_Moons/units/Pygmies/b1_Piper.cfg:38
+msgid "swarm"
+msgstr ""
+
+#. [unit_type]: id=EFM_Charmer, race=EFMpygmy
+#: Era_of_Four_Moons/units/Pygmies/b2_Charmer.cfg:5
+msgid "Charmer"
+msgstr ""
+
+#. [unit_type]: id=EFM_Charmer, race=EFMpygmy
+#: Era_of_Four_Moons/units/Pygmies/b2_Charmer.cfg:19
+msgid ""
+"A famous trick that originated among the pygmies is the ability to charm "
+"snakes. Ironically this ability requires no magic at all and can be "
+"practiced by any brave man. It is said however that you should not anger the "
+"snake charmer that carries a pygmy flute for even if no snake approaches "
+"you, you may find yourself with a poisoned bite in an uncomfortable place."
+msgstr ""
+
+#. [unit_type]: id=EFM_Puma, race=EFMpygmy
+#: Era_of_Four_Moons/units/Pygmies/c1_Puma.cfg:5
+msgid "Puma"
+msgstr ""
+
+#. [unit_type]: id=EFM_Puma, race=EFMpygmy
+#: Era_of_Four_Moons/units/Pygmies/c1_Puma.cfg:18
+msgid ""
+"The Pygmies export spider silk and a number of other things to the sea "
+"states in exchange for tools and steel knives. A long knife may as well be a "
+"sword in the hands of a pygmy but others have learned not to underestimate "
+"the agility with which the little men can wield their weapons. In particular "
+"their ability to dart around a mans guard is noted."
+msgstr ""
+
+#. [unit_type]: id=EFM_Lynx, race=EFMpygmy
+#: Era_of_Four_Moons/units/Pygmies/c2_Lynx.cfg:5
+msgid "Lynx"
+msgstr ""
+
+#. [unit_type]: id=EFM_Lynx, race=EFMpygmy
+#: Era_of_Four_Moons/units/Pygmies/c2_Lynx.cfg:18
+msgid ""
+"The knife wielders who come back alive with a decent collection of scalps "
+"are afforded great honor in pygmy society. They are admitted into a special "
+"caste with associated privileges and will not have any problems finding "
+"themselves a willing mate."
+msgstr ""
+
+#. [unit_type]: id=EFM_SaberCat, race=EFMpygmy
+#: Era_of_Four_Moons/units/Pygmies/c3_SaberCat.cfg:5
+msgid "Saber Cat"
+msgstr ""
+
+#. [unit_type]: id=EFM_SaberCat, race=EFMpygmy
+#: Era_of_Four_Moons/units/Pygmies/c3_SaberCat.cfg:19
+msgid ""
+"Many lynxes are content to enjoy the position they have fought for but many "
+"still compete with the rest for even more renown within their caste. The "
+"ones who are considered serious competitors are called saber cats after the "
+"legendary hunters. Incidentally, most of these pygmies are strong enough to "
+"wield full sized sabers."
+msgstr ""
+
+#. [attack]: type=blade
+#: Era_of_Four_Moons/units/Pygmies/c3_SaberCat.cfg:31
+#: Era_of_Four_Moons/units/SeaStates/d3_Cataphract.cfg:31
+#: Era_of_Four_Moons/units/SeaStates/c3_Clibanarii.cfg:31
+#: Era_of_Four_Moons/units/SeaStates/c1_HorseArcher.cfg:25
+#: Era_of_Four_Moons/units/SeaStates/c2_Sagiharii.cfg:25
+#: Era_of_Four_Moons/units/SeaStates/d2_Raider.cfg:25
+#: Era_of_Four_Moons/units/SeaStates/d1_Rider.cfg:25
+msgid "saber"
+msgstr ""
+
+#. [unit_type]: id=EFM_Crocodile, race=EFMpygmy
+#: Era_of_Four_Moons/units/Pygmies/e1_Crocodile.cfg:5
+msgid "Crocodile"
+msgstr ""
+
+#. [unit_type]: id=EFM_Crocodile, race=EFMpygmy
+#: Era_of_Four_Moons/units/Pygmies/e1_Crocodile.cfg:18
+msgid ""
+"Large portions of the jungle that the pygmies live in could be better "
+"described as a swamp. Living in these swamps is a fearsome predator that "
+"lurks in the swampy waters and ambushes the unweary. However even these "
+"fearsome beasts are not beyond the ability of pygmies tamers."
+msgstr ""
+
+#. [unit_type]: id=EFM_GrandCrocodile, race=EFMpygmy
+#: Era_of_Four_Moons/units/Pygmies/e2_GrandCrocodile.cfg:5
+msgid "Grand Crocodile"
+msgstr ""
+
+#. [unit_type]: id=EFM_GrandCrocodile, race=EFMpygmy
+#: Era_of_Four_Moons/units/Pygmies/e2_GrandCrocodile.cfg:19
+msgid ""
+"Most crocodiles can be mistaken for a floating log. There are however a few "
+"that are so big that none would mistake them for anything other than an "
+"elder crocodile."
+msgstr ""
+
+#. [unit_type]: id=EFM_SwampWitch, race=EFMpygmy
+#: Era_of_Four_Moons/units/Pygmies/f1_SwampWitch.cfg:5
+msgid "Swamp Witch"
+msgstr ""
+
+#. [unit_type]: id=EFM_SwampWitch, race=EFMpygmy
+#: Era_of_Four_Moons/units/Pygmies/f1_SwampWitch.cfg:18
+msgid ""
+"Although most pygmies do not practice cannibalism like the rumors say there "
+"are a few who do. Do not let your children play near the jungle else they "
+"may fall victim to the devil witches who eat man and wield death and decay "
+"as weapons."
+msgstr ""
+
+#. [attack]: type=arcane
+#: Era_of_Four_Moons/units/Pygmies/f3_DeepWitch.cfg:40
+#: Era_of_Four_Moons/units/Pygmies/f1_SwampWitch.cfg:39
+#: Era_of_Four_Moons/units/Pygmies/f2_JungleWitch.cfg:39
+msgid "jida"
+msgstr ""
+
+#. [unit_type]: id=EFM_JungleWitch, race=EFMpygmy
+#: Era_of_Four_Moons/units/Pygmies/f2_JungleWitch.cfg:5
+msgid "Jungle Witch"
+msgstr ""
+
+#. [unit_type]: id=EFM_JungleWitch, race=EFMpygmy
+#: Era_of_Four_Moons/units/Pygmies/f2_JungleWitch.cfg:18
+msgid ""
+"Generally the stronger witches live deeper in the jungle. There they grow "
+"mushrooms to leach trees for strength to provide them with power. This makes "
+"them considerably stronger than those who have to try to catch children or "
+"steal babies but it does not make them lose their taste for blood."
+msgstr ""
+
+#. [unit_type]: id=EFM_DeepWitch, race=EFMpygmy
+#: Era_of_Four_Moons/units/Pygmies/f3_DeepWitch.cfg:5
+msgid "Deep Witch"
+msgstr ""
+
+#. [unit_type]: id=EFM_DeepWitch, race=EFMpygmy
+#: Era_of_Four_Moons/units/Pygmies/f3_DeepWitch.cfg:19
+msgid ""
+"In the deepest part of the jungle where the trees are so thick you might as "
+"well be in a cave live the most powerful of the jungle witch. Ruminating in "
+"decay for years gives their aura such deadly power that it can wilt men "
+"alive."
+msgstr ""
+
 #. [unit_type]: id=EFM_Regimenteer, race=EFMseastates
 #: Era_of_Four_Moons/units/SeaStates/a1_Regimenteer.cfg:5
 msgid "Regimenteer"
@@ -1609,6 +2271,11 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=blade
+#: Era_of_Four_Moons/units/Whites/a2_HouseCarl.cfg:25
+#: Era_of_Four_Moons/units/Whites/e1_Scout.cfg:25
+#: Era_of_Four_Moons/units/Whites/e2_Raider.cfg:26
+#: Era_of_Four_Moons/units/Whites/a1_Warrior.cfg:25
+#: Era_of_Four_Moons/units/Whites/a3_Thane.cfg:26
 #: Era_of_Four_Moons/units/SeaStates/a1_Regimenteer.cfg:29
 #: Era_of_Four_Moons/units/SeaStates/a2_Retainer.cfg:29
 #: Era_of_Four_Moons/units/SeaStates/a3_HouseGuard.cfg:30
@@ -1737,16 +2404,6 @@ msgid ""
 "on horseback."
 msgstr ""
 
-#. [attack]: type=blade
-#: Era_of_Four_Moons/units/SeaStates/d3_Cataphract.cfg:31
-#: Era_of_Four_Moons/units/SeaStates/c3_Clibanarii.cfg:31
-#: Era_of_Four_Moons/units/SeaStates/c1_HorseArcher.cfg:25
-#: Era_of_Four_Moons/units/SeaStates/c2_Sagiharii.cfg:25
-#: Era_of_Four_Moons/units/SeaStates/d2_Raider.cfg:25
-#: Era_of_Four_Moons/units/SeaStates/d1_Rider.cfg:25
-msgid "saber"
-msgstr ""
-
 #. [unit_type]: id=EFM_Sagiharii, race=EFMseastates
 #: Era_of_Four_Moons/units/SeaStates/c2_Sagiharii.cfg:5
 msgid "Sagiharii"
@@ -1782,7 +2439,9 @@ msgstr ""
 msgid "Mounted forces have long been an important auxiliary of the regiments."
 msgstr ""
 
+#. [unit_type]: id=EFM_WhiteRaider, race=EFMwhite
 #. [unit_type]: id=EFM_Raider, race=EFMseastates
+#: Era_of_Four_Moons/units/Whites/e2_Raider.cfg:5
 #: Era_of_Four_Moons/units/SeaStates/d2_Raider.cfg:5
 msgid "Raider"
 msgstr ""
@@ -1859,44 +2518,6 @@ msgid ""
 "enemies however it says nothing about paralysis powder."
 msgstr ""
 
-#. [unit_type]: id=EFM_Ballista, race=mechanical
-#: Era_of_Four_Moons/units/SeaStates/f1_Ballista.cfg:5
-msgid "Ballista"
-msgstr ""
-
-#. [unit_type]: id=EFM_Ballista, race=mechanical
-#: Era_of_Four_Moons/units/SeaStates/f1_Ballista.cfg:18
-msgid ""
-"Despite their love of bows the Sea States were never fond of the crossbow. "
-"The fire rate was just too low for the guild officers. Ballista are a "
-"different story for many commanders have found them useful in siege warfare "
-"as a tool for picking off enemy archers without taking much in the way of "
-"retaliation."
-msgstr ""
-
-#. [attack]: type=pierce
-#: Era_of_Four_Moons/units/SeaStates/f1_Ballista.cfg:25
-#: Era_of_Four_Moons/units/SeaStates/f1_Ballista.cfg:34
-#: Era_of_Four_Moons/units/SeaStates/f2_Bolter.cfg:26
-#: Era_of_Four_Moons/units/SeaStates/f2_Bolter.cfg:35
-msgid "ballista"
-msgstr ""
-
-#. [unit_type]: id=EFM_Bolter, race=mechanical
-#: Era_of_Four_Moons/units/SeaStates/f2_Bolter.cfg:5
-msgid "Bolter"
-msgstr ""
-
-#. [unit_type]: id=EFM_Bolter, race=mechanical
-#: Era_of_Four_Moons/units/SeaStates/f2_Bolter.cfg:19
-msgid ""
-"Bolters are a slightly improved form of the ballista. They are considerably "
-"more difficult to construct as there are a couple stages in the construction "
-"where the entire project will unravel if even a slight mistake was made "
-"earlier. As a result they see less use but when they do appear enemy "
-"commanders would be well adviced to take precautions for them."
-msgstr ""
-
 #. [unit_type]: id=EFM_Boatsman, race=EFMseastates
 #: Era_of_Four_Moons/units/SeaStates/g1_Boatman.cfg:5
 msgid "Boatsman"
@@ -1943,6 +2564,329 @@ msgid ""
 "Any boatman who earns the title can rightly consider it a great honor and "
 "demand a higher fee. Most snappers can afford to pick up an extra weapon in "
 "addition to their paddle to decrease the risk of their paddle breaking"
+msgstr ""
+
+#. [unit_type]: id=EFM_WhiteWarrior, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/a1_Warrior.cfg:18
+msgid ""
+"The whites live in vast and untamed lands and have over time become "
+"accustomed to traveling swiftly over rough terrain; a trait which serves "
+"their warriors well. Axes are the favored armament for they are as much a "
+"tool as a weapon."
+msgstr ""
+
+#. [attack]: type=blade
+#: Era_of_Four_Moons/units/Whites/a2_HouseCarl.cfg:35
+#: Era_of_Four_Moons/units/Whites/e1_Scout.cfg:34
+#: Era_of_Four_Moons/units/Whites/e2_Raider.cfg:35
+#: Era_of_Four_Moons/units/Whites/a1_Warrior.cfg:34
+#: Era_of_Four_Moons/units/Whites/a3_Thane.cfg:36
+msgid "hatchet"
+msgstr ""
+
+#. [unit_type]: id=EFM_HouseCarl, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/a2_HouseCarl.cfg:5
+msgid "Housecarl"
+msgstr ""
+
+#. [unit_type]: id=EFM_HouseCarl, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/a2_HouseCarl.cfg:18
+msgid ""
+"The core of many a white army is the housecarl, a breed of professional "
+"warrior. They serve the thanes for good or ill."
+msgstr ""
+
+#. [unit_type]: id=EFM_Thane, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/a3_Thane.cfg:5
+msgid "Thane"
+msgstr ""
+
+#. [unit_type]: id=EFM_Thane, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/a3_Thane.cfg:19
+msgid ""
+"In general it is the responsibility of the thanes or other small nobilities "
+"to protect their people and lead the armies against dangers. As a result "
+"thanes tend to be chosen or bred from some of the finest warriors the whites "
+"produce."
+msgstr ""
+
+#. [unit_type]: id=EFM_BowGirl, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/b0_BowGirl.cfg:5
+msgid "Bow Girl"
+msgstr ""
+
+#. [unit_type]: id=EFM_BowGirl, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/b0_BowGirl.cfg:19
+msgid ""
+"When a white tribe gets desperate for extra warriors they will round up "
+"their young girls who are strong enough to draw a war bow but not yet "
+"mothers and use them as ranged support."
+msgstr ""
+
+#. [unit_type]: id=EFM_Keeper, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/b1_Keeper.cfg:5
+msgid "Keeper"
+msgstr ""
+
+#. [unit_type]: id=EFM_Keeper, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/b1_Keeper.cfg:19
+msgid ""
+"A woman who has fought bravely in battle is afforded the right to remain a "
+"warrior. Those who keep their weapons are called 'keepers' and are "
+"considered to be honorary men for legal purposes (including wergeld but "
+"excluding marriage) until they become mothers."
+msgstr ""
+
+#. [unit_type]: id=EFM_StormChild, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/b1_Stormchild.cfg:5
+msgid "Storm Child"
+msgstr ""
+
+#. [unit_type]: id=EFM_StormChild, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/b1_Stormchild.cfg:19
+msgid ""
+"A small portion of whitey women have the aptitude for magic. The most famous "
+"and common magic that is known to the whites is the control of weather. "
+"Although most commonly used to help farmers it is also commonly used in war. "
+"Training for this magic must begin when the user is fairly young for them to "
+"be able to achieve any sort of potency. Due to the danger of such magic you "
+"will encounter far more 'storm children' than true storm witches."
+msgstr ""
+
+#. [attack]: type=fire
+#: Era_of_Four_Moons/units/Whites/b4_StormQueen.cfg:36
+#: Era_of_Four_Moons/units/Whites/b1_Stormchild.cfg:35
+#: Era_of_Four_Moons/units/Whites/b3_StormLady.cfg:35
+#: Era_of_Four_Moons/units/Whites/b2_Stormwitch.cfg:35
+msgid "lightning"
+msgstr ""
+
+#. [unit_type]: id=EFM_Huntress, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/b2_Huntress.cfg:5
+msgid "Huntress"
+msgstr ""
+
+#. [unit_type]: id=EFM_Huntress, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/b2_Huntress.cfg:19
+msgid ""
+"A noted tendency is for women who keep their weapons is to become hunters. "
+"This way they can keep their skills sharp and provide their village a useful "
+"service at the same time."
+msgstr ""
+
+#. [unit_type]: id=EFM_StormWitch, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/b2_Stormwitch.cfg:5
+msgid "Storm Witch"
+msgstr ""
+
+#. [unit_type]: id=EFM_StormWitch, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/b2_Stormwitch.cfg:19
+msgid ""
+"More devastating than even thunder bolts thrown with deadly precision are "
+"sudden blizzards which devastate regions."
+msgstr ""
+
+#. [attack]: type=cold
+#: Era_of_Four_Moons/units/Whites/b4_StormQueen.cfg:48
+#: Era_of_Four_Moons/units/Whites/b3_StormLady.cfg:47
+#: Era_of_Four_Moons/units/Whites/b2_Stormwitch.cfg:47
+msgid "blizzard"
+msgstr ""
+
+#. [unit_type]: id=EFM_BowLady, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/b3_BowLady.cfg:5
+msgid "Bow Lady"
+msgstr ""
+
+#. [unit_type]: id=EFM_BowLady, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/b3_BowLady.cfg:20
+msgid ""
+"The bow girl tradition has occasionally produced legends of heroines brave "
+"as any man and able to wield bows that most men would have a hard time "
+"drawing."
+msgstr ""
+
+#. [attack]: type=pierce
+#: Era_of_Four_Moons/units/Whites/b3_BowLady.cfg:36
+msgid "long bow"
+msgstr ""
+
+#. [unit_type]: id=EFM_StormLady, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/b3_StormLady.cfg:5
+msgid "Storm Lady"
+msgstr ""
+
+#. [unit_type]: id=EFM_StormLady, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/b3_StormLady.cfg:19
+msgid ""
+"An experienced witch can cause the very earth to rumble and ground to shake "
+"by the might of her power."
+msgstr ""
+
+#. [attack]: type=impact
+#: Era_of_Four_Moons/units/Whites/b4_StormQueen.cfg:60
+#: Era_of_Four_Moons/units/Whites/b3_StormLady.cfg:59
+msgid "earthquake"
+msgstr ""
+
+#. [unit_type]: id=EFM_StormQueen, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/b4_StormQueen.cfg:5
+msgid "Storm Queen"
+msgstr ""
+
+#. [unit_type]: id=EFM_StormQueen, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/b4_StormQueen.cfg:20
+msgid ""
+"Beware the witch whose magic is so strong that it acts without attention. If "
+"the witch's tears bring sudden showers then her anger will strike a man dead "
+"or lay waste to entire villages."
+msgstr ""
+
+#. [unit_type]: id=EFM_StormGuard, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/c1_Storm_Guard.cfg:5
+msgid "Storm Guard"
+msgstr ""
+
+#. [unit_type]: id=EFM_StormGuard, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/c1_Storm_Guard.cfg:18
+msgid ""
+"Due to how rare and valuable storm children are a tradition of assigning "
+"personal guards to them has developed. Men who would have a storm witch for "
+"a wife must join said guard and prove themselves in battle. As having a "
+"storm witch for a wife is a great honor there are usually many who try out "
+"and each a highly motivated fighter. There is a downside to this tradition "
+"however and that with such a tempting motivation and difficult competition, "
+"most storm guard throw themselves recklessly into battle when chance comes "
+"instead of picking off foes with bow before they reach their charge like "
+"they're supposed to."
+msgstr ""
+
+#. [unit_type]: id=EFM_HeartGuard, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/c2_Heart_Guard.cfg:5
+msgid "Heart Guard"
+msgstr ""
+
+#. [unit_type]: id=EFM_HeartGuard, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/c2_Heart_Guard.cfg:18
+msgid ""
+"A man who is considered a serious contender for the heart of a storm child "
+"is marked with a badge. Once a storm guard is badged they tend to be more "
+"willing to demonstrate restraint as they've already marked themselves a "
+"notch above most of his rivals."
+msgstr ""
+
+#. [unit_type]: id=EFM_SoulGuard, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/c3_Soul_Guard.cfg:5
+msgid "Soul Guard"
+msgstr ""
+
+#. [unit_type]: id=EFM_SoulGuard, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/c3_Soul_Guard.cfg:19
+msgid ""
+"Those actually chosen to be the storm witches mates are almost guaranteed to "
+"be devoted and ferocious warriors."
+msgstr ""
+
+#. [unit_type]: id=EFM_Warder, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/d1_Warder.cfg:5
+msgid "Warder"
+msgstr ""
+
+#. [unit_type]: id=EFM_Warder, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/d1_Warder.cfg:18
+msgid ""
+"Some villages do not benefit from the protection of thanes or other "
+"nobility. In these villages it is not uncommon for many of the men to "
+"practice warcraft. In particular they train to be able to encircle and "
+"overwhelm stronger opponents. Traditionally they wield staves for these are "
+"easy to produce."
+msgstr ""
+
+#. [unit_type]: id=EFM_Vigilante, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/d2_Vigilante.cfg:5
+msgid "Vigilante"
+msgstr ""
+
+#. [unit_type]: id=EFM_Vigilante, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/d2_Vigilante.cfg:18
+msgid ""
+"In the absence of a thane there will usually be at least a few men who put "
+"it upon themselves to maintain order and law in a village."
+msgstr ""
+
+#. [unit_type]: id=EFM_Guardian, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/d3_Guardian.cfg:5
+msgid "Guardian"
+msgstr ""
+
+#. [unit_type]: id=EFM_Guardian, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/d3_Guardian.cfg:19
+msgid ""
+"A town that appears undefended may prove to have an unexpected guardian. A "
+"group of simple men with staves has proved to be the downfall of many a "
+"raiding party."
+msgstr ""
+
+#. [unit_type]: id=EFM_WhiteScout, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/e1_Scout.cfg:5
+msgid "Scout"
+msgstr ""
+
+#. [unit_type]: id=EFM_WhiteScout, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/e1_Scout.cfg:18
+msgid ""
+"Whites not strong enough to be used as warriors are frequently marathon "
+"trained to act as scouts and messengers. Most of them practice with hatchets "
+"so that they can contribute something to a fight without beings stuck in the "
+"melee."
+msgstr ""
+
+#. [unit_type]: id=EFM_WhiteRaider, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/e2_Raider.cfg:19
+msgid ""
+"Cattle raiding is a favored past time of bored white scouts. If one is quick "
+"enough one can get in, silence the keepers, and get out again leaving your "
+"victim with only a few corpses and many neboring villages to suspect. This "
+"kind of behavior is one of the many reasons the whites will never be at "
+"peace with each other."
+msgstr ""
+
+#. [unit_type]: id=EFM_TerrorRider, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/f1_TerrorRider.cfg:5
+msgid "Terror Rider"
+msgstr ""
+
+#. [unit_type]: id=EFM_TerrorRider, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/f1_TerrorRider.cfg:18
+msgid ""
+"In general the whites are not fond of fighting mounted. Though many massive "
+"beasts roam the land they prefer to fight on their own two feet. There is "
+"one exception in the mighty terror bird where the hight of the beast allows "
+"for easier use of a flail."
+msgstr ""
+
+#. [attack]: type=impact
+#: Era_of_Four_Moons/units/Whites/f2_TerrorStrider.cfg:26
+#: Era_of_Four_Moons/units/Whites/f1_TerrorRider.cfg:25
+msgid "flail"
+msgstr ""
+
+#. [attack]: type=pierce
+#: Era_of_Four_Moons/units/Whites/f2_TerrorStrider.cfg:38
+#: Era_of_Four_Moons/units/Whites/f1_TerrorRider.cfg:37
+msgid "beak"
+msgstr ""
+
+#. [unit_type]: id=EFM_TerrorStrider, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/f2_TerrorStrider.cfg:5
+msgid "Terror Strider"
+msgstr ""
+
+#. [unit_type]: id=EFM_TerrorStrider, race=EFMwhite
+#: Era_of_Four_Moons/units/Whites/f2_TerrorStrider.cfg:19
+msgid ""
+"The terror birds are intimidating creatures and when properly trained make a "
+"war mount more fearsome than a horse."
 msgstr ""
 
 #. [race]: id=EFMdarklander
@@ -2027,7 +2971,7 @@ msgstr ""
 #. [race]: id=EFMimperialists
 #: Era_of_Four_Moons/units/races.cfg:35
 msgid ""
-"The imperialist empire is the larges power on the continent. Starting as a "
+"The imperialist empire is the largest power on the continent. Starting as a "
 "mere city state it discovered a new brand of tactics that allowed it to "
 "spread outward. It's conquests and power have made it proud and even though "
 "its expansion has slowed it continues to spread the idea that its culture is "
@@ -2058,6 +3002,64 @@ msgid ""
 "However the power of their legendary machines and their fine crafts of metal "
 "have brought the occasional attempt to raid them and their stout hearted "
 "militia have never failed to rally to fight them off. In battle the dalefolk "
-"use their strange machines and magics, as well as a bit of wild lore and "
-"durability."
+"use their strange machines and magics, as well as a bit of wild lore."
+msgstr ""
+
+#. [race]: id=EFMwhite
+#: Era_of_Four_Moons/units/races.cfg:50 Era_of_Four_Moons/units/races.cfg:51
+msgid "race^Whities"
+msgstr ""
+
+#. [race]: id=EFMwhite
+#: Era_of_Four_Moons/units/races.cfg:53
+msgid ""
+"Hailing from a different continent these savage warriors are named after the "
+"peculiar colour of their skin. Little is known about their culture however "
+"in battle they are known for their ability to move over most types of "
+"terrain easily and their magicians have the ability to control weather."
+msgstr ""
+
+#. [race]: id=EFMpygmy
+#: Era_of_Four_Moons/units/races.cfg:59
+msgid "race^Pygmy"
+msgstr ""
+
+#. [race]: id=EFMpygmy
+#: Era_of_Four_Moons/units/races.cfg:60
+msgid "race^Pygmies"
+msgstr ""
+
+#. [race]: id=EFMpygmy
+#: Era_of_Four_Moons/units/races.cfg:62
+msgid ""
+"The name pygmy means small people which describes these jungle dwellers "
+"quite accurately. They are a strange and secretive people who mostly leave "
+"everyone else alone. On the rare occasion when they have been attacked their "
+"methods of battle could be described as nothing short of unusual. As there "
+"are many many poisonous creatures and dangers in their native environment "
+"almost all of them know herb lore and first aid."
+msgstr ""
+
+#. [race]: id=EFMfreeman
+#: Era_of_Four_Moons/units/races.cfg:68
+msgid "race^Freeman"
+msgstr ""
+
+#. [race]: id=EFMfreeman
+#: Era_of_Four_Moons/units/races.cfg:69
+msgid "race^Freemen"
+msgstr ""
+
+#. [race]: id=EFMfreeman
+#: Era_of_Four_Moons/units/races.cfg:71
+msgid ""
+"The free men are so named after the first impression they gave the explorers "
+"who found them. After more formal relations were established many started to "
+"find the name ironic but it has stuck around anyway and the freemen "
+"themselves seem to appreciate it. They are tough people who inhabit the "
+"northern deserts. What few cities there are are renown for the remarkable "
+"shows of wealth that are commonplace in them. Many of them live in the "
+"cities under the guidance of the aristocracy and priests but many more of "
+"them live in the desert as nomads and owe little allegiance to anything "
+"other than family."
 msgstr ""
