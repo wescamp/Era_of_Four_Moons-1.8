@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2011-02-21 15:25+0100\n"
+"POT-Creation-Date: 2011-02-27 17:35+0100\n"
 "PO-Revision-Date: 2010-10-03 13:23+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -22,18 +22,13 @@ msgstr ""
 msgid "Era of Four Moons Extended"
 msgstr ""
 
-#. [era]: id=era_EFM_a1_Extended_D
-#: Era_of_Four_Moons/EFM_eras.cfg:31
-msgid "Era of Four Moons + Dalefolk"
-msgstr ""
-
 #. [era]: id=era_EFM_D_a1
-#: Era_of_Four_Moons/EFM_eras.cfg:44
+#: Era_of_Four_Moons/EFM_eras.cfg:32
 msgid "EoFM + default"
 msgstr ""
 
 #. [era]: id=era_EFM_D_exe_a1
-#: Era_of_Four_Moons/EFM_eras.cfg:62
+#: Era_of_Four_Moons/EFM_eras.cfg:50
 msgid "EoFM Ext + default"
 msgstr ""
 
