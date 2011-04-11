@@ -48,3 +48,19 @@ Other
 
 -bug fixes for last release
 -A few minor balance tweaks.
+
+
+0.2.7
+
+New unit for the freelanders
+Wanderer revamped
+Camel line pierce weakness up to -10%
+Minor tweaks to toadbreath line
+lynx cost->17
+Crocodile cost->18
+A few added sounds/artwork
+Malice Damage increased
+Hardback price->19
+Terror Rider price ->20
+Fixed Shifter ability for 1.9
+Champions of Four Moons Era added (AoH alike)
