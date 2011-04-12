@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2011-02-27 17:35+0100\n"
+"POT-Creation-Date: 2011-04-12 14:31+0200\n"
 "PO-Revision-Date: 2010-10-03 13:23+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -22,77 +22,87 @@ msgstr ""
 msgid "Era of Four Moons Extended"
 msgstr ""
 
-#. [era]: id=era_EFM_D_a1
+#. [era]: id=era_CFM_a1
 #: Era_of_Four_Moons/EFM_eras.cfg:32
+msgid "Champions of Four Moons"
+msgstr ""
+
+#. [era]: id=era_EFM_D_a1
+#: Era_of_Four_Moons/EFM_eras.cfg:48
 msgid "EoFM + default"
 msgstr ""
 
-#. [era]: id=era_EFM_D_exe_a1
-#: Era_of_Four_Moons/EFM_eras.cfg:50
-msgid "EoFM Ext + default"
+#. [language]
+#. [resistance]: id=ability_artillery
+#: Era_of_Four_Moons/_main.cfg:13 Era_of_Four_Moons/macros/abilities.cfg:52
+#: Era_of_Four_Moons/macros/abilities.cfg:54
+msgid "artillery"
+msgstr ""
+
+#. [language]
+#: Era_of_Four_Moons/_main.cfg:14
+msgid "insects"
+msgstr ""
+
+#. [language]
+#: Era_of_Four_Moons/_main.cfg:15
+msgid "sapper"
 msgstr ""
 
 #. [multiplayer_side]: id=EFM_Dalefolk, type=EFM_Foreman
+#. [multiplayer_side]: id=CFM_Dalefolk, type=EFM_Conduit
 #: Era_of_Four_Moons/factions/Dalefolk-EFM.cfg:5
+#: Era_of_Four_Moons/factions/Dalefolk-CFM.cfg:5
 msgid "Dalefolk"
 msgstr ""
 
 #. [multiplayer_side]: id=EFM_Darklanders, type=EFM_Wrath
+#. [multiplayer_side]: id=CFM_Darklanders, type=EFM_Vengence
 #: Era_of_Four_Moons/factions/Darklanders-EFM.cfg:5
+#: Era_of_Four_Moons/factions/Darklanders-CFM.cfg:5
 msgid "Darklanders"
 msgstr ""
 
+#. [multiplayer_side]: id=CFM_Freemen, type=EFM_Sultan
 #. [multiplayer_side]: id=EFM_Freemen, type=EFM_Amir
+#: Era_of_Four_Moons/factions/Freemen-CFM.cfg:5
 #: Era_of_Four_Moons/factions/Freemen-EFM.cfg:5
 msgid "Freemen"
 msgstr ""
 
+#. [multiplayer_side]: id=CFM_Highlanders, type=EFM_HighlanderChief
 #. [multiplayer_side]: id=EFM_Highlanders, type=EFM_HighlanderWarrior
+#: Era_of_Four_Moons/factions/Highlanders-CFM.cfg:5
 #: Era_of_Four_Moons/factions/Highlanders-EFM.cfg:5
 msgid "Highlanders"
 msgstr ""
 
+#. [multiplayer_side]: id=CFM_Imperialists, type=EFM_Primus
 #. [multiplayer_side]: id=EFM_Imperialists, type=EFM_Centurion
+#: Era_of_Four_Moons/factions/Imperialists-CFM.cfg:5
 #: Era_of_Four_Moons/factions/Imperialists-EFM.cfg:5
 msgid "Imperialists"
 msgstr ""
 
 #. [multiplayer_side]: id=EFM_Pygmies, type=EFM_Lynx
+#. [multiplayer_side]: id=CFM_Pygmies, type=EFM_SaberCat
 #: Era_of_Four_Moons/factions/Pygmies-EFM.cfg:5
+#: Era_of_Four_Moons/factions/Pygmies-CFM.cfg:5
 msgid "Pygmies"
 msgstr ""
 
+#. [multiplayer_side]: id=CFM_SeaStates, type=EFM_MerchantLord
 #. [multiplayer_side]: id=EFM_SeaStates, type=EFM_GuildOfficer
+#: Era_of_Four_Moons/factions/SeaStates-CFM.cfg:5
 #: Era_of_Four_Moons/factions/SeaStates-EFM.cfg:5
 msgid "Sea States"
 msgstr ""
 
 #. [multiplayer_side]: id=EFM_Whites, type=EFM_HouseCarl
+#. [multiplayer_side]: id=CFM_Whites, type=EFM_Thane
 #: Era_of_Four_Moons/factions/Whites-EFM.cfg:5
+#: Era_of_Four_Moons/factions/Whites-CFM.cfg:5
 msgid "Whiteies"
-msgstr ""
-
-#. [dummy]: id=EFM_weapon_special_hex
-#: Era_of_Four_Moons/macros/Hex.cfg:9 Era_of_Four_Moons/macros/Hex.cfg:10
-msgid "hex"
-msgstr ""
-
-#. [dummy]: id=EFM_weapon_special_hex
-#: Era_of_Four_Moons/macros/Hex.cfg:13
-msgid ""
-"Hex :\n"
-"Curses the hit unit. The cursed unit gets a 15% defense penalty on every "
-"terrain until it is cured by a village.\n"
-"Does not affect undeads, and the defense value can't go lower than 10%."
-msgstr ""
-
-#. [dummy]: id=EFM_weapon_special_hex
-#: Era_of_Four_Moons/macros/Hex.cfg:16
-msgid ""
-"Hex :\n"
-"Curses the hit unit. The cursed unit gets a 15% defense penalty on every "
-"terrain until it is cured a village.\n"
-"Does not affect undeads, and the defense value can't go lower than 10%."
 msgstr ""
 
 #. [dummy]: id=weapon_special_nozoc
@@ -134,12 +144,6 @@ msgid ""
 "Decay:\n"
 "Enemies next to a unit with this ability gain -20% resistances to everything "
 "except arcane."
-msgstr ""
-
-#. [resistance]: id=ability_artillery
-#: Era_of_Four_Moons/macros/abilities.cfg:52
-#: Era_of_Four_Moons/macros/abilities.cfg:54
-msgid "artillery"
 msgstr ""
 
 #. [resistance]: id=ability_artillery
@@ -205,88 +209,88 @@ msgstr ""
 
 #. [unit_type]: id=EFM_Sapper, race=EFMimperialists
 #: Era_of_Four_Moons/units/Imperialists/e1_Sapper.cfg:5
-#: Era_of_Four_Moons/macros/abilities.cfg:169
-#: Era_of_Four_Moons/macros/abilities.cfg:170
+#: Era_of_Four_Moons/macros/abilities.cfg:177
+#: Era_of_Four_Moons/macros/abilities.cfg:178
 msgid "Sapper"
 msgstr ""
 
-#: Era_of_Four_Moons/macros/abilities.cfg:172
-#: Era_of_Four_Moons/macros/abilities.cfg:174
+#: Era_of_Four_Moons/macros/abilities.cfg:180
+#: Era_of_Four_Moons/macros/abilities.cfg:182
 msgid ""
 "Sapper :\n"
 "This attack automatically hits. It reduces the targets hp by a percentage "
 "equal to his current defense. The sapper dies when it uses this attack."
 msgstr ""
 
-#: Era_of_Four_Moons/macros/abilities.cfg:184
+#: Era_of_Four_Moons/macros/abilities.cfg:192
 msgid "heal+3"
 msgstr ""
 
-#: Era_of_Four_Moons/macros/abilities.cfg:186
+#: Era_of_Four_Moons/macros/abilities.cfg:194
 msgid ""
 "Heal+3:\n"
 "This unit will heal allies by 3 hp at the start of it's turn. Will slow "
 "poison."
 msgstr ""
 
-#: Era_of_Four_Moons/macros/abilities.cfg:204
-#: Era_of_Four_Moons/macros/abilities.cfg:207
+#: Era_of_Four_Moons/macros/abilities.cfg:212
+#: Era_of_Four_Moons/macros/abilities.cfg:215
 msgid "foresthome"
 msgstr ""
 
-#: Era_of_Four_Moons/macros/abilities.cfg:206
-#: Era_of_Four_Moons/macros/abilities.cfg:209
+#: Era_of_Four_Moons/macros/abilities.cfg:214
+#: Era_of_Four_Moons/macros/abilities.cfg:217
 msgid ""
 "Foresthome:\n"
 "This unit will regenerate 3 hp when in forest."
 msgstr ""
 
-#: Era_of_Four_Moons/macros/abilities.cfg:223
-#: Era_of_Four_Moons/macros/abilities.cfg:226
+#: Era_of_Four_Moons/macros/abilities.cfg:231
+#: Era_of_Four_Moons/macros/abilities.cfg:234
 msgid "waterhome"
 msgstr ""
 
-#: Era_of_Four_Moons/macros/abilities.cfg:225
-#: Era_of_Four_Moons/macros/abilities.cfg:228
+#: Era_of_Four_Moons/macros/abilities.cfg:233
+#: Era_of_Four_Moons/macros/abilities.cfg:236
 msgid ""
 "Waterhome:\n"
 "This unit will regenerate 3 hp when in deep or shallow water."
 msgstr ""
 
-#: Era_of_Four_Moons/macros/abilities.cfg:242
-#: Era_of_Four_Moons/macros/abilities.cfg:245
+#: Era_of_Four_Moons/macros/abilities.cfg:250
+#: Era_of_Four_Moons/macros/abilities.cfg:253
 msgid "deserthome"
 msgstr ""
 
-#: Era_of_Four_Moons/macros/abilities.cfg:244
-#: Era_of_Four_Moons/macros/abilities.cfg:247
+#: Era_of_Four_Moons/macros/abilities.cfg:252
+#: Era_of_Four_Moons/macros/abilities.cfg:255
 msgid ""
 "Deserthome:\n"
 "This unit will regenerate 3 hp when in desert or sand."
 msgstr ""
 
-#: Era_of_Four_Moons/macros/abilities.cfg:261
-#: Era_of_Four_Moons/macros/abilities.cfg:264
+#: Era_of_Four_Moons/macros/abilities.cfg:269
+#: Era_of_Four_Moons/macros/abilities.cfg:272
 msgid "mountainhome"
 msgstr ""
 
-#: Era_of_Four_Moons/macros/abilities.cfg:263
+#: Era_of_Four_Moons/macros/abilities.cfg:271
 msgid ""
 "Mountainhome:\n"
 "This unit will regenerate 3 hp when on mountains."
 msgstr ""
 
-#: Era_of_Four_Moons/macros/abilities.cfg:266
+#: Era_of_Four_Moons/macros/abilities.cfg:274
 msgid ""
 "Mountainhome:\n"
 "This unit will regenerate 3 hp when in mountains."
 msgstr ""
 
-#: Era_of_Four_Moons/macros/abilities.cfg:276
+#: Era_of_Four_Moons/macros/abilities.cfg:284
 msgid "inspire"
 msgstr ""
 
-#: Era_of_Four_Moons/macros/abilities.cfg:280
+#: Era_of_Four_Moons/macros/abilities.cfg:288
 msgid ""
 "Inspire:\n"
 "This unit can inspire friendly units that are next to it, making them fight "
@@ -299,12 +303,12 @@ msgstr ""
 #. [dummy]: id=ability_shifter
 #: Era_of_Four_Moons/macros/shifter.cfg:6
 #: Era_of_Four_Moons/macros/shifter.cfg:7
-#: Era_of_Four_Moons/macros/abilities.cfg:397
-#: Era_of_Four_Moons/macros/abilities.cfg:398
+#: Era_of_Four_Moons/macros/abilities.cfg:405
+#: Era_of_Four_Moons/macros/abilities.cfg:406
 msgid "shifter"
 msgstr ""
 
-#: Era_of_Four_Moons/macros/abilities.cfg:405
+#: Era_of_Four_Moons/macros/abilities.cfg:413
 msgid ""
 "This unit changes form based on what terrain he is standing on.\n"
 "Villages/Castles: Human\n"
@@ -313,6 +317,29 @@ msgid ""
 "Mountains/Hills: Bighorned Sheep\n"
 "SnowCovered: Wolf\n"
 "Forest/Cave: Bear"
+msgstr ""
+
+#. [dummy]: id=EFM_weapon_special_hex
+#: Era_of_Four_Moons/macros/hex.cfg:9 Era_of_Four_Moons/macros/hex.cfg:10
+msgid "hex"
+msgstr ""
+
+#. [dummy]: id=EFM_weapon_special_hex
+#: Era_of_Four_Moons/macros/hex.cfg:13
+msgid ""
+"Hex :\n"
+"Curses the hit unit. The cursed unit gets a 15% defense penalty on every "
+"terrain until it is cured by a village.\n"
+"Does not affect undeads, and the defense value can't go lower than 10%."
+msgstr ""
+
+#. [dummy]: id=EFM_weapon_special_hex
+#: Era_of_Four_Moons/macros/hex.cfg:16
+msgid ""
+"Hex :\n"
+"Curses the hit unit. The cursed unit gets a 15% defense penalty on every "
+"terrain until it is cured a village.\n"
+"Does not affect undeads, and the defense value can't go lower than 10%."
 msgstr ""
 
 #. [dummy]: id=ability_shifter
@@ -373,13 +400,13 @@ msgid ""
 "them in combat."
 msgstr ""
 
-#. [unit_type]: id=EFM_Mountaineer, race=EFMdalefolk
-#: Era_of_Four_Moons/units/Dalefolk/b1_Mountaineer.cfg:5
-msgid "Mountaineer"
+#. [unit_type]: id=EFM_Herder, race=EFMdalefolk
+#: Era_of_Four_Moons/units/Dalefolk/b1_Herder.cfg:5
+msgid "Herder"
 msgstr ""
 
-#. [unit_type]: id=EFM_Mountaineer, race=EFMdalefolk
-#: Era_of_Four_Moons/units/Dalefolk/b1_Mountaineer.cfg:18
+#. [unit_type]: id=EFM_Herder, race=EFMdalefolk
+#: Era_of_Four_Moons/units/Dalefolk/b1_Herder.cfg:18
 msgid ""
 "One of the major industries and traits of the dalesfolk is their goat "
 "herding. They regularly send their bravest lads out into the mountains alone "
@@ -389,14 +416,14 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=impact
+#: Era_of_Four_Moons/units/Dalefolk/b1_Herder.cfg:30
 #: Era_of_Four_Moons/units/Dalefolk/b2_MountainMan.cfg:31
-#: Era_of_Four_Moons/units/Dalefolk/b1_Mountaineer.cfg:30
 msgid "club"
 msgstr ""
 
 #. [attack]: type=impact
+#: Era_of_Four_Moons/units/Dalefolk/b1_Herder.cfg:39
 #: Era_of_Four_Moons/units/Dalefolk/b2_MountainMan.cfg:40
-#: Era_of_Four_Moons/units/Dalefolk/b1_Mountaineer.cfg:39
 msgid "sling"
 msgstr ""
 
@@ -427,7 +454,9 @@ msgid ""
 "worked. They were successful to an extent. Although they could not figure "
 "out how to turn someone else into a beast they did eventually learn how to "
 "do it to themselves. It is a rare talent and much in demand for both "
-"domestic and militaristic problems."
+"domestic and militaristic problems. The downside of this magic is that those "
+"who initiate themselves with this power cannot seem to control it and thus "
+"their form is determined by their landscape."
 msgstr ""
 
 #. [attack]: type=impact
@@ -468,7 +497,7 @@ msgid "ram"
 msgstr ""
 
 #: Era_of_Four_Moons/units/Dalefolk/c1_Shifter.cfg:171
-msgid "Shifter(Beaver)"
+msgid "Shifter(Giant Beaver)"
 msgstr ""
 
 #: Era_of_Four_Moons/units/Dalefolk/c1_Shifter.cfg:174
@@ -504,7 +533,7 @@ msgid "Shifter(Boar)"
 msgstr ""
 
 #: Era_of_Four_Moons/units/Dalefolk/c1_Shifter.cfg:290
-msgid "The boar is a sturdy charger."
+msgid "The warthog is a sturdy charger."
 msgstr ""
 
 #. [unit_type]: id=EFM_Shifter_Bear
@@ -625,7 +654,6 @@ msgstr ""
 #: Era_of_Four_Moons/units/Whites/b1_Keeper.cfg:26
 #: Era_of_Four_Moons/units/Whites/b0_BowGirl.cfg:26
 #: Era_of_Four_Moons/units/Whites/b4_StormQueen.cfg:27
-#: Era_of_Four_Moons/units/Whites/b3_BowLady.cfg:32
 #: Era_of_Four_Moons/units/Whites/b1_Stormchild.cfg:26
 #: Era_of_Four_Moons/units/Whites/b2_Huntress.cfg:31
 #: Era_of_Four_Moons/units/Whites/b3_StormLady.cfg:26
@@ -749,6 +777,7 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=blade
+#: Era_of_Four_Moons/units/Whites/b3_BowLady.cfg:32
 #: Era_of_Four_Moons/units/SeaStates/g3_Snapper.cfg:37
 #: Era_of_Four_Moons/units/Darklanders/a1_Tribesman.cfg:30
 #: Era_of_Four_Moons/units/Darklanders/a2_Guerrilla.cfg:37
@@ -1095,8 +1124,8 @@ msgstr ""
 
 #. [attack]: type=blade
 #: Era_of_Four_Moons/units/Freemen/a1_Aristocrat.cfg:25
-#: Era_of_Four_Moons/units/Freemen/c3_Adventurer.cfg:36
-#: Era_of_Four_Moons/units/Freemen/c2_SandRider.cfg:36
+#: Era_of_Four_Moons/units/Freemen/c3_Adventurer.cfg:45
+#: Era_of_Four_Moons/units/Freemen/c2_SandRider.cfg:45
 #: Era_of_Four_Moons/units/Freemen/c1_CamelRider.cfg:26
 #: Era_of_Four_Moons/units/Freemen/a2_Vizier.cfg:29
 #: Era_of_Four_Moons/units/Freemen/a3_Sultan.cfg:30
@@ -1349,7 +1378,7 @@ msgstr ""
 #: Era_of_Four_Moons/units/Imperialists/a3_Gargantaur.cfg:35
 #: Era_of_Four_Moons/units/Imperialists/f3_Tank.cfg:35
 #: Era_of_Four_Moons/units/Freemen/d2_Mufti.cfg:38
-#: Era_of_Four_Moons/units/Freemen/d3_Mullah.cfg:40
+#: Era_of_Four_Moons/units/Freemen/d3_Mullah.cfg:41
 #: Era_of_Four_Moons/units/Freemen/d1_Muezzin.cfg:38
 msgid "mace"
 msgstr ""
@@ -1372,7 +1401,7 @@ msgid "Mullah"
 msgstr ""
 
 #. [unit_type]: id=EFM_Mullah, race=EFMfreeman
-#: Era_of_Four_Moons/units/Freemen/d3_Mullah.cfg:19
+#: Era_of_Four_Moons/units/Freemen/d3_Mullah.cfg:20
 msgid ""
 "Mullah are the primary teachers and scholars of the freelands as well as its "
 "priests. They are men of great power and influence and many of them are "
@@ -1423,6 +1452,66 @@ msgid ""
 "The leader of a nomad tribe is called a Sheik. Sheiks are chosen by a "
 "council of elders for their ability to lead and the councils rarely choose "
 "poorly."
+msgstr ""
+
+#. [unit_type]: id=EFM_Chanter, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/g1_Chanter.cfg:5
+msgid "Chanter"
+msgstr ""
+
+#. [unit_type]: id=EFM_Chanter, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/g1_Chanter.cfg:18
+msgid ""
+"Among the freemen there is a strange order of magicians  who twist "
+"themselves into forms that allow them to deliver devastatingly loud and "
+"powerful screams. It is not the most dignified form of attack, but it has "
+"proved itself to be quite effective on numerous occasions."
+msgstr ""
+
+#. [attack]: type=impact
+#: Era_of_Four_Moons/units/Whites/d3_Guardian.cfg:39
+#: Era_of_Four_Moons/units/Whites/d1_Warder.cfg:34
+#: Era_of_Four_Moons/units/Whites/d2_Vigilante.cfg:34
+#: Era_of_Four_Moons/units/Imperialists/b2_Spiker.cfg:33
+#: Era_of_Four_Moons/units/Imperialists/b2_Flinger.cfg:33
+#: Era_of_Four_Moons/units/Imperialists/b1_Slinger.cfg:32
+#: Era_of_Four_Moons/units/Freemen/g1_Chanter.cfg:26
+#: Era_of_Four_Moons/units/Freemen/g2_Howler.cfg:26
+#: Era_of_Four_Moons/units/Freemen/g3_Screecher.cfg:26
+msgid "staff"
+msgstr ""
+
+#. [attack]: type=impact
+#: Era_of_Four_Moons/units/Freemen/g1_Chanter.cfg:35
+#: Era_of_Four_Moons/units/Freemen/g2_Howler.cfg:35
+#: Era_of_Four_Moons/units/Freemen/g3_Screecher.cfg:35
+msgid "scream"
+msgstr ""
+
+#. [unit_type]: id=EFM_Howler, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/g2_Howler.cfg:5
+msgid "Howler"
+msgstr ""
+
+#. [unit_type]: id=EFM_Howler, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/g2_Howler.cfg:18
+msgid ""
+"The actual titles of the chanter order are not known to outsiders. Among the "
+"common soldier, they tend to merely get fitting nicknames."
+msgstr ""
+
+#. [unit_type]: id=EFM_Screecher, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/g3_Screecher.cfg:5
+msgid "Screecher"
+msgstr ""
+
+#. [unit_type]: id=EFM_Screecher, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/g3_Screecher.cfg:18
+msgid ""
+"The most terrible of chanters can use not just the volume and power of their "
+"voice as a weapon but the resonance as well. A voice held at the perfect "
+"pitch with enough volume can shatter the crystalline structures of stone and "
+"make structures collapse."
 msgstr ""
 
 #. [unit_type]: id=EFM_Brave, race=EFMhighlanders
@@ -1850,16 +1939,6 @@ msgid ""
 "These weapons are very awkward to use in forests."
 msgstr ""
 
-#. [attack]: type=impact
-#: Era_of_Four_Moons/units/Whites/d3_Guardian.cfg:39
-#: Era_of_Four_Moons/units/Whites/d1_Warder.cfg:34
-#: Era_of_Four_Moons/units/Whites/d2_Vigilante.cfg:34
-#: Era_of_Four_Moons/units/Imperialists/b2_Spiker.cfg:33
-#: Era_of_Four_Moons/units/Imperialists/b2_Flinger.cfg:33
-#: Era_of_Four_Moons/units/Imperialists/b1_Slinger.cfg:32
-msgid "staff"
-msgstr ""
-
 #. [attack]: type=blade
 #. [attack]: type=impact
 #: Era_of_Four_Moons/units/Imperialists/b2_Spiker.cfg:42
@@ -1998,6 +2077,7 @@ msgid ""
 "servant for the rest of their lives. It is not unknown for free citizens to "
 "take the role too if they feel sufficiently disgraced. Note: Their attack "
 "reduces their targets current experience by the % of their current defense."
+"(Capped at 20 damage)"
 msgstr ""
 
 #. [attack]: type=fire
@@ -2006,7 +2086,7 @@ msgid "light the fuse"
 msgstr ""
 
 #. [unstore_unit]
-#: Era_of_Four_Moons/units/Imperialists/e1_Sapper.cfg:129
+#: Era_of_Four_Moons/units/Imperialists/e1_Sapper.cfg:149
 msgid "Boom!"
 msgstr ""
 
