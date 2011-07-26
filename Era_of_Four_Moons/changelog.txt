@@ -64,3 +64,7 @@ Hardback price->19
 Terror Rider price ->20
 Fixed Shifter ability for 1.9
 Champions of Four Moons Era added (AoH alike)
+
+0.2.9
+
+Hex rewritten to be less buggy.
